@@ -1,83 +1,1108 @@
 {
   "intents": [
     {
-      "tag": "greeting",
+      "tag":"Greetings",
+      "patterns":[ "Hi",
+      "What's up!",
+      "How are you",
+      "Is anyone there?",
+      "Hello",
+      "good evening",
+      "good afternoon",
+      "good mornig",
+      "Good day"],
+      "responses":["hello",
+        "hi,may I help you!",
+         "good day,can I help you!"]
+
+    },
+    {
+      "tag": "home",
       "patterns": [
+        "Guide me to home?",
+        "Where do you get home?",
+        "What is the link of home?",
+        "How do you get home?",
+        "Who is in charge of home?",
+        "I want a link of home",
+        "Give me the link of home",
+        "Bring me the link of home"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/ for more information"
+      ]
+    },
+    {
+      "tag": "schemes",
+      "patterns": [
+        "Guide me to schemes?",
+        "Where do you get schemes?",
+        "What is the link of schemes?",
+        "How do you get schemes?",
+        "Who is in charge of schemes?",
+        "I want a link of schemes",
+        "Give me the link of schemes",
+        "Bring me the link of schemes"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/#schemes for more information"
+      ]
+    },
+    {
+      "tag": "investment",
+      "patterns": [
+        "Guide me to investment?",
+        "Where do you get investment?",
+        "What is the link of investment?",
+        "How do you get investment?",
+        "Who is in charge of investment?",
+        "I want a link of investment",
+        "Give me the link of investment",
+        "Bring me the link of investment"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/investment for more information"
+      ]
+    },
+    {
+      "tag": "management",
+      "patterns": [
+        "Guide me to management?",
+        "Where do you get management?",
+        "What is the link of management?",
+        "How do you get management?",
+        "Who is in charge of management?",
+        "I want a link of management",
+        "Give me the link of management",
+        "Bring me the link of management"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/management for more information"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Guide me to about?",
+        "Where do you get about?",
+        "What is the link of about?",
+        "How do you get about?",
+        "Who is in charge of about?",
+        "I want a link of about",
+        "Give me the link of about",
+        "Bring me the link of about"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/aboutus for more information"
+      ]
+    },
+    {
+      "tag": "careers",
+      "patterns": [
+        "Guide me to careers?",
+        "Where do you get careers?",
+        "What is the link of careers?",
+        "How do you get careers?",
+        "Who is in charge of careers?",
+        "I want a link of careers",
+        "Give me the link of careers",
+        "Bring me the link of careers"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/careers for more information"
+      ]
+    },
+    {
+      "tag": "news & events",
+      "patterns": [
+        "Guide me to news & events?",
+        "Where do you get news & events?",
+        "What is the link of news & events?",
+        "How do you get news & events?",
+        "Who is in charge of news & events?",
+        "I want a link of news & events",
+        "Give me the link of news & events",
+        "Bring me the link of news & events"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/news for more information"
+      ]
+    },
+    {
+      "tag": "Maternity LeaveEnjoy your maternity leave with your full salarylearn more",
+      "patterns": [
+        "Guide me to Maternity LeaveEnjoy your maternity leave with your full salarylearn more?",
+        "Where do you get Maternity LeaveEnjoy your maternity leave with your full salarylearn more?",
+        "What is the link of Maternity LeaveEnjoy your maternity leave with your full salarylearn more?",
+        "How do you get Maternity LeaveEnjoy your maternity leave with your full salarylearn more?",
+        "Who is in charge of Maternity LeaveEnjoy your maternity leave with your full salarylearn more?",
+        "I want a link of Maternity LeaveEnjoy your maternity leave with your full salarylearn more",
+        "Give me the link of Maternity LeaveEnjoy your maternity leave with your full salarylearn more",
+        "Bring me the link of Maternity LeaveEnjoy your maternity leave with your full salarylearn more"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/scheme/maternity-leave for more information"
+      ]
+    },
+    {
+      "tag": "Medical SchemeOur Health, our Futurelearn more",
+      "patterns": [
+        "Guide me to Medical SchemeOur Health, our Futurelearn more?",
+        "Where do you get Medical SchemeOur Health, our Futurelearn more?",
+        "What is the link of Medical SchemeOur Health, our Futurelearn more?",
+        "How do you get Medical SchemeOur Health, our Futurelearn more?",
+        "Who is in charge of Medical SchemeOur Health, our Futurelearn more?",
+        "I want a link of Medical SchemeOur Health, our Futurelearn more",
+        "Give me the link of Medical SchemeOur Health, our Futurelearn more",
+        "Bring me the link of Medical SchemeOur Health, our Futurelearn more"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/scheme/medical-scheme for more information"
+      ]
+    },
+    {
+      "tag": "CBHI SchemeGiving you happiness at best ratelearn more",
+      "patterns": [
+        "Guide me to CBHI SchemeGiving you happiness at best ratelearn more?",
+        "Where do you get CBHI SchemeGiving you happiness at best ratelearn more?",
+        "What is the link of CBHI SchemeGiving you happiness at best ratelearn more?",
+        "How do you get CBHI SchemeGiving you happiness at best ratelearn more?",
+        "Who is in charge of CBHI SchemeGiving you happiness at best ratelearn more?",
+        "I want a link of CBHI SchemeGiving you happiness at best ratelearn more",
+        "Give me the link of CBHI SchemeGiving you happiness at best ratelearn more",
+        "Bring me the link of CBHI SchemeGiving you happiness at best ratelearn more"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/scheme/cbhi-scheme for more information"
+      ]
+    },
+    {
+      "tag": "Pension SchemeRetire with dignitylearn more",
+      "patterns": [
+        "Guide me to Pension SchemeRetire with dignitylearn more?",
+        "Where do you get Pension SchemeRetire with dignitylearn more?",
+        "What is the link of Pension SchemeRetire with dignitylearn more?",
+        "How do you get Pension SchemeRetire with dignitylearn more?",
+        "Who is in charge of Pension SchemeRetire with dignitylearn more?",
+        "I want a link of Pension SchemeRetire with dignitylearn more",
+        "Give me the link of Pension SchemeRetire with dignitylearn more",
+        "Bring me the link of Pension SchemeRetire with dignitylearn more"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/scheme/pension-scheme for more information"
+      ]
+    },
+    {
+      "tag": "Occupational HazardsWe are  here for youlearn more",
+      "patterns": [
+        "Guide me to Occupational HazardsWe are  here for youlearn more?",
+        "Where do you get Occupational HazardsWe are  here for youlearn more?",
+        "What is the link of Occupational HazardsWe are  here for youlearn more?",
+        "How do you get Occupational HazardsWe are  here for youlearn more?",
+        "Who is in charge of Occupational HazardsWe are  here for youlearn more?",
+        "I want a link of Occupational HazardsWe are  here for youlearn more",
+        "Give me the link of Occupational HazardsWe are  here for youlearn more",
+        "Bring me the link of Occupational HazardsWe are  here for youlearn more"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/scheme/occupational-hazards for more information"
+      ]
+    },
+    {
+      "tag": "EjoHezaStart early and reap the rewards.learn more",
+      "patterns": [
+        "Guide me to EjoHezaStart early and reap the rewards.learn more?",
+        "Where do you get EjoHezaStart early and reap the rewards.learn more?",
+        "What is the link of EjoHezaStart early and reap the rewards.learn more?",
+        "How do you get EjoHezaStart early and reap the rewards.learn more?",
+        "Who is in charge of EjoHezaStart early and reap the rewards.learn more?",
+        "I want a link of EjoHezaStart early and reap the rewards.learn more",
+        "Give me the link of EjoHezaStart early and reap the rewards.learn more",
+        "Bring me the link of EjoHezaStart early and reap the rewards.learn more"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/scheme/ejo-heza for more information"
+      ]
+    },
+    {
+      "tag": "Check Contribution",
+      "patterns": [
+        "Guide me to Check Contribution?",
+        "Where do you get Check Contribution?",
+        "What is the link of Check Contribution?",
+        "How do you get Check Contribution?",
+        "Who is in charge of Check Contribution?",
+        "I want a link of Check Contribution",
+        "Give me the link of Check Contribution",
+        "Bring me the link of Check Contribution"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rwhttps://www.imisanzu.rssb.rw/ for more information"
+      ]
+    },
+    {
+      "tag": "RSSB Clearance Certificate",
+      "patterns": [
+        "Guide me to RSSB Clearance Certificate?",
+        "Where do you get RSSB Clearance Certificate?",
+        "What is the link of RSSB Clearance Certificate?",
+        "How do you get RSSB Clearance Certificate?",
+        "Who is in charge of RSSB Clearance Certificate?",
+        "I want a link of RSSB Clearance Certificate",
+        "Give me the link of RSSB Clearance Certificate",
+        "Bring me the link of RSSB Clearance Certificate"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rwhttps://www.rra.gov.rw/fileadmin/user_upload/tcc.html for more information"
+      ]
+    },
+    {
+      "tag": "Apply for Employee Number",
+      "patterns": [
+        "Guide me to Apply for Employee Number?",
+        "Where do you get Apply for Employee Number?",
+        "What is the link of Apply for Employee Number?",
+        "How do you get Apply for Employee Number?",
+        "Who is in charge of Apply for Employee Number?",
+        "I want a link of Apply for Employee Number",
+        "Give me the link of Apply for Employee Number",
+        "Bring me the link of Apply for Employee Number"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rwhttps://online.rssb.rw/index1152.php?menu=employer for more information"
+      ]
+    },
+    {
+      "tag": "Pay Employee Contributions",
+      "patterns": [
+        "Guide me to Pay Employee Contributions?",
+        "Where do you get Pay Employee Contributions?",
+        "What is the link of Pay Employee Contributions?",
+        "How do you get Pay Employee Contributions?",
+        "Who is in charge of Pay Employee Contributions?",
+        "I want a link of Pay Employee Contributions",
+        "Give me the link of Pay Employee Contributions",
+        "Bring me the link of Pay Employee Contributions"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rwhttps://etax.rra.gov.rw/ for more information"
+      ]
+    },
+    {
+      "tag": "a month agoRSSB invests in Katapult Africa Seed Fund, Nine Start-u ...On Friday 4th November 2022, Katapult Africa officially launched its Accelerator Program in Kigali, Rwanda together with its partners, NORAD - Norwegi ...Read more ...",
+      "patterns": [
+        "Guide me to a month agoRSSB invests in Katapult Africa Seed Fund, Nine Start-u ...On Friday 4th November 2022, Katapult Africa officially launched its Accelerator Program in Kigali, Rwanda together with its partners, NORAD - Norwegi ...Read more ...?",
+        "Where do you get a month agoRSSB invests in Katapult Africa Seed Fund, Nine Start-u ...On Friday 4th November 2022, Katapult Africa officially launched its Accelerator Program in Kigali, Rwanda together with its partners, NORAD - Norwegi ...Read more ...?",
+        "What is the link of a month agoRSSB invests in Katapult Africa Seed Fund, Nine Start-u ...On Friday 4th November 2022, Katapult Africa officially launched its Accelerator Program in Kigali, Rwanda together with its partners, NORAD - Norwegi ...Read more ...?",
+        "How do you get a month agoRSSB invests in Katapult Africa Seed Fund, Nine Start-u ...On Friday 4th November 2022, Katapult Africa officially launched its Accelerator Program in Kigali, Rwanda together with its partners, NORAD - Norwegi ...Read more ...?",
+        "Who is in charge of a month agoRSSB invests in Katapult Africa Seed Fund, Nine Start-u ...On Friday 4th November 2022, Katapult Africa officially launched its Accelerator Program in Kigali, Rwanda together with its partners, NORAD - Norwegi ...Read more ...?",
+        "I want a link of a month agoRSSB invests in Katapult Africa Seed Fund, Nine Start-u ...On Friday 4th November 2022, Katapult Africa officially launched its Accelerator Program in Kigali, Rwanda together with its partners, NORAD - Norwegi ...Read more ...",
+        "Give me the link of a month agoRSSB invests in Katapult Africa Seed Fund, Nine Start-u ...On Friday 4th November 2022, Katapult Africa officially launched its Accelerator Program in Kigali, Rwanda together with its partners, NORAD - Norwegi ...Read more ...",
+        "Bring me the link of a month agoRSSB invests in Katapult Africa Seed Fund, Nine Start-u ...On Friday 4th November 2022, Katapult Africa officially launched its Accelerator Program in Kigali, Rwanda together with its partners, NORAD - Norwegi ...Read more ..."
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/rssb-invests-in-katapult-africa-seed-fund-nine-start-ups-selected-for-accelerator-program for more information"
+      ]
+    },
+    {
+      "tag": "7 months agoCommunity-based health insurance scheme receives financ ...KIGALI - May 25th , 2022 : AIDS Healthcare Foundation Rwanda( AHF Rwanda) handed over a cheque of 133,866,000 Frw to Rwanda Social Security Board to s ...Read more ...",
+      "patterns": [
+        "Guide me to 7 months agoCommunity-based health insurance scheme receives financ ...KIGALI - May 25th , 2022 : AIDS Healthcare Foundation Rwanda( AHF Rwanda) handed over a cheque of 133,866,000 Frw to Rwanda Social Security Board to s ...Read more ...?",
+        "Where do you get 7 months agoCommunity-based health insurance scheme receives financ ...KIGALI - May 25th , 2022 : AIDS Healthcare Foundation Rwanda( AHF Rwanda) handed over a cheque of 133,866,000 Frw to Rwanda Social Security Board to s ...Read more ...?",
+        "What is the link of 7 months agoCommunity-based health insurance scheme receives financ ...KIGALI - May 25th , 2022 : AIDS Healthcare Foundation Rwanda( AHF Rwanda) handed over a cheque of 133,866,000 Frw to Rwanda Social Security Board to s ...Read more ...?",
+        "How do you get 7 months agoCommunity-based health insurance scheme receives financ ...KIGALI - May 25th , 2022 : AIDS Healthcare Foundation Rwanda( AHF Rwanda) handed over a cheque of 133,866,000 Frw to Rwanda Social Security Board to s ...Read more ...?",
+        "Who is in charge of 7 months agoCommunity-based health insurance scheme receives financ ...KIGALI - May 25th , 2022 : AIDS Healthcare Foundation Rwanda( AHF Rwanda) handed over a cheque of 133,866,000 Frw to Rwanda Social Security Board to s ...Read more ...?",
+        "I want a link of 7 months agoCommunity-based health insurance scheme receives financ ...KIGALI - May 25th , 2022 : AIDS Healthcare Foundation Rwanda( AHF Rwanda) handed over a cheque of 133,866,000 Frw to Rwanda Social Security Board to s ...Read more ...",
+        "Give me the link of 7 months agoCommunity-based health insurance scheme receives financ ...KIGALI - May 25th , 2022 : AIDS Healthcare Foundation Rwanda( AHF Rwanda) handed over a cheque of 133,866,000 Frw to Rwanda Social Security Board to s ...Read more ...",
+        "Bring me the link of 7 months agoCommunity-based health insurance scheme receives financ ...KIGALI - May 25th , 2022 : AIDS Healthcare Foundation Rwanda( AHF Rwanda) handed over a cheque of 133,866,000 Frw to Rwanda Social Security Board to s ...Read more ..."
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/community-based-health-insurance-scheme-receives-financial-boost-from-ahf for more information"
+      ]
+    },
+    {
+      "tag": "7 months agoRSSB remembers former CSR employees killed during the 1 ...Rwanda Social Security Board (RSSB) has remembered its former employees who were killed during the 1994 Genocide Against the Tutsi. The event was orga ...Read more ...",
+      "patterns": [
+        "Guide me to 7 months agoRSSB remembers former CSR employees killed during the 1 ...Rwanda Social Security Board (RSSB) has remembered its former employees who were killed during the 1994 Genocide Against the Tutsi. The event was orga ...Read more ...?",
+        "Where do you get 7 months agoRSSB remembers former CSR employees killed during the 1 ...Rwanda Social Security Board (RSSB) has remembered its former employees who were killed during the 1994 Genocide Against the Tutsi. The event was orga ...Read more ...?",
+        "What is the link of 7 months agoRSSB remembers former CSR employees killed during the 1 ...Rwanda Social Security Board (RSSB) has remembered its former employees who were killed during the 1994 Genocide Against the Tutsi. The event was orga ...Read more ...?",
+        "How do you get 7 months agoRSSB remembers former CSR employees killed during the 1 ...Rwanda Social Security Board (RSSB) has remembered its former employees who were killed during the 1994 Genocide Against the Tutsi. The event was orga ...Read more ...?",
+        "Who is in charge of 7 months agoRSSB remembers former CSR employees killed during the 1 ...Rwanda Social Security Board (RSSB) has remembered its former employees who were killed during the 1994 Genocide Against the Tutsi. The event was orga ...Read more ...?",
+        "I want a link of 7 months agoRSSB remembers former CSR employees killed during the 1 ...Rwanda Social Security Board (RSSB) has remembered its former employees who were killed during the 1994 Genocide Against the Tutsi. The event was orga ...Read more ...",
+        "Give me the link of 7 months agoRSSB remembers former CSR employees killed during the 1 ...Rwanda Social Security Board (RSSB) has remembered its former employees who were killed during the 1994 Genocide Against the Tutsi. The event was orga ...Read more ...",
+        "Bring me the link of 7 months agoRSSB remembers former CSR employees killed during the 1 ...Rwanda Social Security Board (RSSB) has remembered its former employees who were killed during the 1994 Genocide Against the Tutsi. The event was orga ...Read more ..."
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/rssb-remembers-former-csr-employees-killed-during-the-1994-genocide-against-the-tutsi for more information"
+      ]
+    },
+    {
+      "tag": "Useful Staff Contacts",
+      "patterns": [
+        "Guide me to Useful Staff Contacts?",
+        "Where do you get Useful Staff Contacts?",
+        "What is the link of Useful Staff Contacts?",
+        "How do you get Useful Staff Contacts?",
+        "Who is in charge of Useful Staff Contacts?",
+        "I want a link of Useful Staff Contacts",
+        "Give me the link of Useful Staff Contacts",
+        "Bring me the link of Useful Staff Contacts"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/useful-staff-contacts for more information"
+      ]
+    },
+    {
+      "tag": "Tenders",
+      "patterns": [
+        "Guide me to Tenders?",
+        "Where do you get Tenders?",
+        "What is the link of Tenders?",
+        "How do you get Tenders?",
+        "Who is in charge of Tenders?",
+        "I want a link of Tenders",
+        "Give me the link of Tenders",
+        "Bring me the link of Tenders"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/publications#tenders for more information"
+      ]
+    },
+    {
+      "tag": "Gallery",
+      "patterns": [
+        "Guide me to Gallery?",
+        "Where do you get Gallery?",
+        "What is the link of Gallery?",
+        "How do you get Gallery?",
+        "Who is in charge of Gallery?",
+        "I want a link of Gallery",
+        "Give me the link of Gallery",
+        "Bring me the link of Gallery"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rwhttps://www.flickr.com/photos/185734547@N05/ for more information"
+      ]
+    },
+    {
+      "tag": "Announcements",
+      "patterns": [
+        "Guide me to Announcements?",
+        "Where do you get Announcements?",
+        "What is the link of Announcements?",
+        "How do you get Announcements?",
+        "Who is in charge of Announcements?",
+        "I want a link of Announcements",
+        "Give me the link of Announcements",
+        "Bring me the link of Announcements"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/publications#announcements for more information"
+      ]
+    },
+    {
+      "tag": "Apply for employee number",
+      "patterns": [
+        "Guide me to Apply for employee number?",
+        "Where do you get Apply for employee number?",
+        "What is the link of Apply for employee number?",
+        "How do you get Apply for employee number?",
+        "Who is in charge of Apply for employee number?",
+        "I want a link of Apply for employee number",
+        "Give me the link of Apply for employee number",
+        "Bring me the link of Apply for employee number"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rwhttps://online.rssb.rw/index1152.php?menu=employer for more information"
+      ]
+    },
+    {
+      "tag": "Check for your contributions",
+      "patterns": [
+        "Guide me to Check for your contributions?",
+        "Where do you get Check for your contributions?",
+        "What is the link of Check for your contributions?",
+        "How do you get Check for your contributions?",
+        "Who is in charge of Check for your contributions?",
+        "I want a link of Check for your contributions",
+        "Give me the link of Check for your contributions",
+        "Bring me the link of Check for your contributions"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rwhttps://www.imisanzu.rssb.rw/ for more information"
+      ]
+    },
+    {
+      "tag": "Pay employee contributions",
+      "patterns": [
+        "Guide me to Pay employee contributions?",
+        "Where do you get Pay employee contributions?",
+        "What is the link of Pay employee contributions?",
+        "How do you get Pay employee contributions?",
+        "Who is in charge of Pay employee contributions?",
+        "I want a link of Pay employee contributions",
+        "Give me the link of Pay employee contributions",
+        "Bring me the link of Pay employee contributions"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rwhttps://etax.rra.gov.rw/ for more information"
+      ]
+    },
+    {
+      "tag": "Pension simulator",
+      "patterns": [
+        "Guide me to Pension simulator?",
+        "Where do you get Pension simulator?",
+        "What is the link of Pension simulator?",
+        "How do you get Pension simulator?",
+        "Who is in charge of Pension simulator?",
+        "I want a link of Pension simulator",
+        "Give me the link of Pension simulator",
+        "Bring me the link of Pension simulator"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rw/?pensionSimulator=true for more information"
+      ]
+    },
+    {
+      "tag": "RSSB clearance certificate",
+      "patterns": [
+        "Guide me to RSSB clearance certificate?",
+        "Where do you get RSSB clearance certificate?",
+        "What is the link of RSSB clearance certificate?",
+        "How do you get RSSB clearance certificate?",
+        "Who is in charge of RSSB clearance certificate?",
+        "I want a link of RSSB clearance certificate",
+        "Give me the link of RSSB clearance certificate",
+        "Bring me the link of RSSB clearance certificate"
+      ],
+      "responses": [
+        "You can use this link https://www.rssb.rwhttps://www.rra.gov.rw/fileadmin/user_upload/tcc.html for more information"
+      ]
+    },
+    {
+      "tag": "Contact Us",
+      "patterns": [
+        "Guide me to Contact Us?",
+        "Where do you get Contact Us?",
+        "What is the link of Contact Us?",
+        "How do you get Contact Us?",
+        "Who is in charge of Contact Us?",
+        "I want a link of Contact Us",
+        "Give me the link of Contact Us",
+        "Bring me the link of Contact Us"
+      ],
+      "responses": [
+        "You can use this link /en/contact-us for more information"
+      ]
+    },
+    {
+      "tag": "Change text size",
+      "patterns": [
+        "Guide me to Change text size?",
+        "Where do you get Change text size?",
+        "What is the link of Change text size?",
+        "How do you get Change text size?",
+        "Who is in charge of Change text size?",
+        "I want a link of Change text size",
+        "Give me the link of Change text size",
+        "Bring me the link of Change text size"
+      ],
+      "responses": [
+        "You can use this link # for more information"
+      ]
+    },
+    {
+      "tag": "\n\n\n\n\n\nEnglish\n",
+      "patterns": [
+        "Guide me to \n\n\n\n\n\nEnglish\n?",
+        "Where do you get \n\n\n\n\n\nEnglish\n?",
+        "What is the link of \n\n\n\n\n\nEnglish\n?",
+        "How do you get \n\n\n\n\n\nEnglish\n?",
+        "Who is in charge of \n\n\n\n\n\nEnglish\n?",
+        "I want a link of \n\n\n\n\n\nEnglish\n",
+        "Give me the link of \n\n\n\n\n\nEnglish\n",
+        "Bring me the link of \n\n\n\n\n\nEnglish\n"
+      ],
+      "responses": [
+        "You can use this link /en/home for more information"
+      ]
+    },
+    {
+      "tag": "\n\n\n\n\n\nKinyarwanda\n",
+      "patterns": [
+        "Guide me to \n\n\n\n\n\nKinyarwanda\n?",
+        "Where do you get \n\n\n\n\n\nKinyarwanda\n?",
+        "What is the link of \n\n\n\n\n\nKinyarwanda\n?",
+        "How do you get \n\n\n\n\n\nKinyarwanda\n?",
+        "Who is in charge of \n\n\n\n\n\nKinyarwanda\n?",
+        "I want a link of \n\n\n\n\n\nKinyarwanda\n",
+        "Give me the link of \n\n\n\n\n\nKinyarwanda\n",
+        "Bring me the link of \n\n\n\n\n\nKinyarwanda\n"
+      ],
+      "responses": [
+        "You can use this link /ahabanza for more information"
+      ]
+    },
+    {
+      "tag": "\n\n\n\n\n\nFrench\n",
+      "patterns": [
+        "Guide me to \n\n\n\n\n\nFrench\n?",
+        "Where do you get \n\n\n\n\n\nFrench\n?",
+        "What is the link of \n\n\n\n\n\nFrench\n?",
+        "How do you get \n\n\n\n\n\nFrench\n?",
+        "Who is in charge of \n\n\n\n\n\nFrench\n?",
+        "I want a link of \n\n\n\n\n\nFrench\n",
+        "Give me the link of \n\n\n\n\n\nFrench\n",
+        "Bring me the link of \n\n\n\n\n\nFrench\n"
+      ],
+      "responses": [
+        "You can use this link /fr/accueil for more information"
+      ]
+    },
+    {
+      "tag": "Staff Login",
+      "patterns": [
+        "Guide me to Staff Login?",
+        "Where do you get Staff Login?",
+        "What is the link of Staff Login?",
+        "How do you get Staff Login?",
+        "Who is in charge of Staff Login?",
+        "I want a link of Staff Login",
+        "Give me the link of Staff Login",
+        "Bring me the link of Staff Login"
+      ],
+      "responses": [
+        "You can use this link https://mail.rra.gov.rw/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fmail.rra.gov.rw%2fowa%2f for more information"
+      ]
+    },
+    {
+      "tag": "\n\nSearch\n",
+      "patterns": [
+        "Guide me to \n\nSearch\n?",
+        "Where do you get \n\nSearch\n?",
+        "What is the link of \n\nSearch\n?",
+        "How do you get \n\nSearch\n?",
+        "Who is in charge of \n\nSearch\n?",
+        "I want a link of \n\nSearch\n",
+        "Give me the link of \n\nSearch\n",
+        "Bring me the link of \n\nSearch\n"
+      ],
+      "responses": [
+        "You can use this link # for more information"
+      ]
+    },
+    {
+      "tag": "Domestic Tax Services\n                       \n                      \n",
+      "patterns": [
+        "Guide me to Domestic Tax Services\n                       \n                      \n?",
+        "Where do you get Domestic Tax Services\n                       \n                      \n?",
+        "What is the link of Domestic Tax Services\n                       \n                      \n?",
+        "How do you get Domestic Tax Services\n                       \n                      \n?",
+        "Who is in charge of Domestic Tax Services\n                       \n                      \n?",
+        "I want a link of Domestic Tax Services\n                       \n                      \n",
+        "Give me the link of Domestic Tax Services\n                       \n                      \n",
+        "Bring me the link of Domestic Tax Services\n                       \n                      \n"
+      ],
+      "responses": [
+        "You can use this link /en/domestic-tax-services for more information"
+      ]
+    },
+    {
+      "tag": "Customs Services\n                        \n                      ",
+      "patterns": [
+        "Guide me to Customs Services\n                        \n                      ?",
+        "Where do you get Customs Services\n                        \n                      ?",
+        "What is the link of Customs Services\n                        \n                      ?",
+        "How do you get Customs Services\n                        \n                      ?",
+        "Who is in charge of Customs Services\n                        \n                      ?",
+        "I want a link of Customs Services\n                        \n                      ",
+        "Give me the link of Customs Services\n                        \n                      ",
+        "Bring me the link of Customs Services\n                        \n                      "
+      ],
+      "responses": [
+        "You can use this link /en/customs-services for more information"
+      ]
+    },
+    {
+      "tag": "Publications\n                        \n                      ",
+      "patterns": [
+        "Guide me to Publications\n                        \n                      ?",
+        "Where do you get Publications\n                        \n                      ?",
+        "What is the link of Publications\n                        \n                      ?",
+        "How do you get Publications\n                        \n                      ?",
+        "Who is in charge of Publications\n                        \n                      ?",
+        "I want a link of Publications\n                        \n                      ",
+        "Give me the link of Publications\n                        \n                      ",
+        "Bring me the link of Publications\n                        \n                      "
+      ],
+      "responses": [
+        "You can use this link /en/publications for more information"
+      ]
+    },
+    {
+      "tag": "Rwanda Trade Portal\n                        \n                      ",
+      "patterns": [
+        "Guide me to Rwanda Trade Portal\n                        \n                      ?",
+        "Where do you get Rwanda Trade Portal\n                        \n                      ?",
+        "What is the link of Rwanda Trade Portal\n                        \n                      ?",
+        "How do you get Rwanda Trade Portal\n                        \n                      ?",
+        "Who is in charge of Rwanda Trade Portal\n                        \n                      ?",
+        "I want a link of Rwanda Trade Portal\n                        \n                      ",
+        "Give me the link of Rwanda Trade Portal\n                        \n                      ",
+        "Bring me the link of Rwanda Trade Portal\n                        \n                      "
+      ],
+      "responses": [
+        "You can use this link https://rwandatrade.rw/ for more information"
+      ]
+    },
+    {
+      "tag": "\n               Click to Declare\n                ",
+      "patterns": [
+        "Guide me to \n               Click to Declare\n                ?",
+        "Where do you get \n               Click to Declare\n                ?",
+        "What is the link of \n               Click to Declare\n                ?",
+        "How do you get \n               Click to Declare\n                ?",
+        "Who is in charge of \n               Click to Declare\n                ?",
+        "I want a link of \n               Click to Declare\n                ",
+        "Give me the link of \n               Click to Declare\n                ",
+        "Bring me the link of \n               Click to Declare\n                "
+      ],
+      "responses": [
+        "You can use this link https://etax.rra.gov.rw/ for more information"
+      ]
+    },
+    {
+      "tag": "Click ",
+      "patterns": [
+        "Guide me to Click ?",
+        "Where do you get Click ?",
+        "What is the link of Click ?",
+        "How do you get Click ?",
+        "Who is in charge of Click ?",
+        "I want a link of Click ",
+        "Give me the link of Click ",
+        "Bring me the link of Click "
+      ],
+      "responses": [
+        "You can use this link https://etax.rra.gov.rw/ for more information"
+      ]
+    },
+    {
+      "tag": "Click",
+      "patterns": [
+        "Guide me to Click?",
+        "Where do you get Click?",
+        "What is the link of Click?",
+        "How do you get Click?",
+        "Who is in charge of Click?",
+        "I want a link of Click",
+        "Give me the link of Click",
+        "Bring me the link of Click"
+      ],
+      "responses": [
+        "You can use this link https://myrra.rra.gov.rw/basic/login/indexLogin for more information"
+      ]
+    },
+    {
+      "tag": "Click",
+      "patterns": [
+        "Guide me to Click?",
+        "Where do you get Click?",
+        "What is the link of Click?",
+        "How do you get Click?",
+        "Who is in charge of Click?",
+        "I want a link of Click",
+        "Give me the link of Click",
+        "Bring me the link of Click"
+      ],
+      "responses": [
+        "You can use this link https://localgov.rra.gov.rw/login for more information"
+      ]
+    },
+    {
+      "tag": "Declare Domestic Taxes ",
+      "patterns": [
+        "Guide me to Declare Domestic Taxes ?",
+        "Where do you get Declare Domestic Taxes ?",
+        "What is the link of Declare Domestic Taxes ?",
+        "How do you get Declare Domestic Taxes ?",
+        "Who is in charge of Declare Domestic Taxes ?",
+        "I want a link of Declare Domestic Taxes ",
+        "Give me the link of Declare Domestic Taxes ",
+        "Bring me the link of Declare Domestic Taxes "
+      ],
+      "responses": [
+        "You can use this link https://etax.rra.gov.rw/ for more information"
+      ]
+    },
+    {
+      "tag": "Declare District Revenues",
+      "patterns": [
+        "Guide me to Declare District Revenues?",
+        "Where do you get Declare District Revenues?",
+        "What is the link of Declare District Revenues?",
+        "How do you get Declare District Revenues?",
+        "Who is in charge of Declare District Revenues?",
+        "I want a link of Declare District Revenues",
+        "Give me the link of Declare District Revenues",
+        "Bring me the link of Declare District Revenues"
+      ],
+      "responses": [
+        "You can use this link https://localgov.rra.gov.rw/rlgmsHome for more information"
+      ]
+    },
+    {
+      "tag": "Declare Non Fiscal Revenue ",
+      "patterns": [
+        "Guide me to Declare Non Fiscal Revenue ?",
+        "Where do you get Declare Non Fiscal Revenue ?",
+        "What is the link of Declare Non Fiscal Revenue ?",
+        "How do you get Declare Non Fiscal Revenue ?",
+        "Who is in charge of Declare Non Fiscal Revenue ?",
+        "I want a link of Declare Non Fiscal Revenue ",
+        "Give me the link of Declare Non Fiscal Revenue ",
+        "Bring me the link of Declare Non Fiscal Revenue "
+      ],
+      "responses": [
+        "You can use this link https://nonfiscal.rra.gov.rw/ for more information"
+      ]
+    },
+    {
+      "tag": "Request TAX/QUITUS/RSSB Clearance Certificate",
+      "patterns": [
+        "Guide me to Request TAX/QUITUS/RSSB Clearance Certificate?",
+        "Where do you get Request TAX/QUITUS/RSSB Clearance Certificate?",
+        "What is the link of Request TAX/QUITUS/RSSB Clearance Certificate?",
+        "How do you get Request TAX/QUITUS/RSSB Clearance Certificate?",
+        "Who is in charge of Request TAX/QUITUS/RSSB Clearance Certificate?",
+        "I want a link of Request TAX/QUITUS/RSSB Clearance Certificate",
+        "Give me the link of Request TAX/QUITUS/RSSB Clearance Certificate",
+        "Bring me the link of Request TAX/QUITUS/RSSB Clearance Certificate"
+      ],
+      "responses": [
+        "You can use this link /en/tcc for more information"
+      ]
+    },
+    {
+      "tag": "Electronic Single Window",
+      "patterns": [
+        "Guide me to Electronic Single Window?",
+        "Where do you get Electronic Single Window?",
+        "What is the link of Electronic Single Window?",
+        "How do you get Electronic Single Window?",
+        "Who is in charge of Electronic Single Window?",
+        "I want a link of Electronic Single Window",
+        "Give me the link of Electronic Single Window",
+        "Bring me the link of Electronic Single Window"
+      ],
+      "responses": [
+        "You can use this link https://sw.gov.rw/ for more information"
+      ]
+    },
+    {
+      "tag": "Property Tax Registration Request",
+      "patterns": [
+        "Guide me to Property Tax Registration Request?",
+        "Where do you get Property Tax Registration Request?",
+        "What is the link of Property Tax Registration Request?",
+        "How do you get Property Tax Registration Request?",
+        "Who is in charge of Property Tax Registration Request?",
+        "I want a link of Property Tax Registration Request",
+        "Give me the link of Property Tax Registration Request",
+        "Bring me the link of Property Tax Registration Request"
+      ],
+      "responses": [
+        "You can use this link https://onlinereg.rra.gov.rw/ for more information"
+      ]
+    },
+    {
+      "tag": "Tax Handbook",
+      "patterns": [
+        "Guide me to Tax Handbook?",
+        "Where do you get Tax Handbook?",
+        "What is the link of Tax Handbook?",
+        "How do you get Tax Handbook?",
+        "Who is in charge of Tax Handbook?",
+        "I want a link of Tax Handbook",
+        "Give me the link of Tax Handbook",
+        "Bring me the link of Tax Handbook"
+      ],
+      "responses": [
+        "You can use this link https://tax-handbook.rra.gov.rw/ for more information"
+      ]
+    },
+    {
+      "tag": "Domestic Tax Services ",
+      "patterns": [
+        "Guide me to Domestic Tax Services ?",
+        "Where do you get Domestic Tax Services ?",
+        "What is the link of Domestic Tax Services ?",
+        "How do you get Domestic Tax Services ?",
+        "Who is in charge of Domestic Tax Services ?",
+        "I want a link of Domestic Tax Services ",
+        "Give me the link of Domestic Tax Services ",
+        "Bring me the link of Domestic Tax Services "
+      ],
+      "responses": [
+        "You can use this link /en/domestic-tax-services for more information"
+      ]
+    },
+    {
+      "tag": "Customs Services ",
+      "patterns": [
+        "Guide me to Customs Services ?",
+        "Where do you get Customs Services ?",
+        "What is the link of Customs Services ?",
+        "How do you get Customs Services ?",
+        "Who is in charge of Customs Services ?",
+        "I want a link of Customs Services ",
+        "Give me the link of Customs Services ",
+        "Bring me the link of Customs Services "
+      ],
+      "responses": [
+        "You can use this link /en/customs-services for more information"
+      ]
+    },
+    {
+      "tag": "Rwanda Trade Portal ",
+      "patterns": [
+        "Guide me to Rwanda Trade Portal ?",
+        "Where do you get Rwanda Trade Portal ?",
+        "What is the link of Rwanda Trade Portal ?",
+        "How do you get Rwanda Trade Portal ?",
+        "Who is in charge of Rwanda Trade Portal ?",
+        "I want a link of Rwanda Trade Portal ",
+        "Give me the link of Rwanda Trade Portal ",
+        "Bring me the link of Rwanda Trade Portal "
+      ],
+      "responses": [
+        "You can use this link https://rwandatrade.rw/ for more information"
+      ]
+    },
+    {
+      "tag": "Publications ",
+      "patterns": [
+        "Guide me to Publications ?",
+        "Where do you get Publications ?",
+        "What is the link of Publications ?",
+        "How do you get Publications ?",
+        "Who is in charge of Publications ?",
+        "I want a link of Publications ",
+        "Give me the link of Publications ",
+        "Bring me the link of Publications "
+      ],
+      "responses": [
+        "You can use this link /en/publications for more information"
+      ]
+    },
+    {
+      "tag": "RRA Profile",
+      "patterns": [
+        "Guide me to RRA Profile?",
+        "Where do you get RRA Profile?",
+        "What is the link of RRA Profile?",
+        "How do you get RRA Profile?",
+        "Who is in charge of RRA Profile?",
+        "I want a link of RRA Profile",
+        "Give me the link of RRA Profile",
+        "Bring me the link of RRA Profile"
+      ],
+      "responses": [
+        "You can use this link /en/about-us/rra-profile for more information"
+      ]
+    },
+    {
+      "tag": "Job Vacancy",
+      "patterns": [
+        "Guide me to Job Vacancy?",
+        "Where do you get Job Vacancy?",
+        "What is the link of Job Vacancy?",
+        "How do you get Job Vacancy?",
+        "Who is in charge of Job Vacancy?",
+        "I want a link of Job Vacancy",
+        "Give me the link of Job Vacancy",
+        "Bring me the link of Job Vacancy"
+      ],
+      "responses": [
+        "You can use this link /en/about-us/job-vacancy for more information"
+      ]
+    },
+    {
+      "tag": "News & Events",
+      "patterns": [
+        "Guide me to News & Events?",
+        "Where do you get News & Events?",
+        "What is the link of News & Events?",
+        "How do you get News & Events?",
+        "Who is in charge of News & Events?",
+        "I want a link of News & Events",
+        "Give me the link of News & Events",
+        "Bring me the link of News & Events"
+      ],
+      "responses": [
+        "You can use this link /en/about-us/news-events for more information"
+      ]
+    },
+    {
+      "tag": "Announcements",
+      "patterns": [
+        "Guide me to Announcements?",
+        "Where do you get Announcements?",
+        "What is the link of Announcements?",
+        "How do you get Announcements?",
+        "Who is in charge of Announcements?",
+        "I want a link of Announcements",
+        "Give me the link of Announcements",
+        "Bring me the link of Announcements"
+      ],
+      "responses": [
+        "You can use this link /en/about-us/announcements for more information"
+      ]
+    },
+    {
+      "tag": "rrainfo",
+      "patterns": [
+        "Guide me to rrainfo?",
+        "Where do you get rrainfo?",
+        "What is the link of rrainfo?",
+        "How do you get rrainfo?",
+        "Who is in charge of rrainfo?",
+        "I want a link of rrainfo",
+        "Give me the link of rrainfo",
+        "Bring me the link of rrainfo"
+      ],
+      "responses": [
+        "You can use this link https://twitter.com/rrainfo for more information"
+      ]
+    },
+    {
+      "tag": "Rwanda Revenue Authority",
+      "patterns": [
+        "Guide me to Rwanda Revenue Authority?",
+        "Where do you get Rwanda Revenue Authority?",
+        "What is the link of Rwanda Revenue Authority?",
+        "How do you get Rwanda Revenue Authority?",
+        "Who is in charge of Rwanda Revenue Authority?",
+        "I want a link of Rwanda Revenue Authority",
+        "Give me the link of Rwanda Revenue Authority",
+        "Bring me the link of Rwanda Revenue Authority"
+      ],
+      "responses": [
+        "You can use this link https://web.facebook.com/RwandaRevenueAuthority?_rdc=1&_rdr for more information"
+      ]
+    },
+    {
+      "tag": "Greetings",
+      "patterns": [
+        "Hello",
         "Hi",
         "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
+        "How are you?",
+        "Whats'up?",
+        "Anyone there?"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hello, what can I help you?",
+        "Hi, do you have any problem?",
+        "Hey, do you need help?",
+        "I am doing great!!!"
       ]
     },
     {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
+      "tag": "Rwanda Revenue Authority",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Guide me to Rwanda Revenue Authority?",
+        "Where do you get Rwanda Revenue Authority?",
+        "What is the link of Rwanda Revenue Authority?",
+        "How do you get Rwanda Revenue Authority?",
+        "Who is in charge of Rwanda Revenue Authority?",
+        "I want a link of Rwanda Revenue Authority",
+        "Give me the link of Rwanda Revenue Authority",
+        "Bring me the link of Rwanda Revenue Authority"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "You can use this link https://www.youtube.com/channel/UCO4zbegoG2MuTGj6qj8wApQ/ for more information"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "Rwandarevenue",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Guide me to Rwandarevenue?",
+        "Where do you get Rwandarevenue?",
+        "What is the link of Rwandarevenue?",
+        "How do you get Rwandarevenue?",
+        "Who is in charge of Rwandarevenue?",
+        "I want a link of Rwandarevenue",
+        "Give me the link of Rwandarevenue",
+        "Bring me the link of Rwandarevenue"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "You can use this link https://www.flickr.com/photos/rwandarevenue for more information"
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "Search for TIN using National ID",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "Guide me to Search for TIN using National ID?",
+        "Where do you get Search for TIN using National ID?",
+        "What is the link of Search for TIN using National ID?",
+        "How do you get Search for TIN using National ID?",
+        "Who is in charge of Search for TIN using National ID?",
+        "I want a link of Search for TIN using National ID",
+        "Give me the link of Search for TIN using National ID",
+        "Bring me the link of Search for TIN using National ID"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "You can use this link https://etax.rra.gov.rw/nidAssignedTIN/ for more information"
       ]
     },
     {
-      "tag": "funny",
+      "tag": "Tax Calculator",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "Guide me to Tax Calculator?",
+        "Where do you get Tax Calculator?",
+        "What is the link of Tax Calculator?",
+        "How do you get Tax Calculator?",
+        "Who is in charge of Tax Calculator?",
+        "I want a link of Tax Calculator",
+        "Give me the link of Tax Calculator",
+        "Bring me the link of Tax Calculator"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "You can use this link /en/tax-calculator for more information"
+      ]
+    },
+    {
+      "tag": "Online Property Tax Registration Request",
+      "patterns": [
+        "Guide me to Online Property Tax Registration Request?",
+        "Where do you get Online Property Tax Registration Request?",
+        "What is the link of Online Property Tax Registration Request?",
+        "How do you get Online Property Tax Registration Request?",
+        "Who is in charge of Online Property Tax Registration Request?",
+        "I want a link of Online Property Tax Registration Request",
+        "Give me the link of Online Property Tax Registration Request",
+        "Bring me the link of Online Property Tax Registration Request"
+      ],
+      "responses": [
+        "You can use this link https://onlinereg.rra.gov.rw/ for more information"
+      ]
+    },
+    {
+      "tag": "Brochures",
+      "patterns": [
+        "Guide me to Brochures?",
+        "Where do you get Brochures?",
+        "What is the link of Brochures?",
+        "How do you get Brochures?",
+        "Who is in charge of Brochures?",
+        "I want a link of Brochures",
+        "Give me the link of Brochures",
+        "Bring me the link of Brochures"
+      ],
+      "responses": [
+        "You can use this link /en/useful-links/brochures for more information"
       ]
     }
   ]

@@ -4,6 +4,7 @@ import nltk
 from nltk.stem.porter import PorterStemmer
 stemmer = PorterStemmer()
 
+
 def tokenize(sentence):
     """
     split sentence into array of words/tokens
