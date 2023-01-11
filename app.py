@@ -77,3 +77,6 @@ def predict():
     # we jsonify our response
     message = {"answer":response}
     return jsonify(message)
+
+# if __name__ == "__main__":
+#     app.run(debug=True)
