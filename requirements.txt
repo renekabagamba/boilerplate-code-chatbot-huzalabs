@@ -6,4 +6,6 @@ nltk
 numpy
 requests
 torch
-gunicorn 
+gunicorn
+psycopg2
+flask_sqlalchemy
