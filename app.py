@@ -14,17 +14,18 @@ chatBot = chatBot()
 #nltk.download('punkt')
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql+psycopg2://admin:COLnBQtTVptNTzQqqVHgUnUmyMFWLcjR@dpg-cf35u11a6gdpa6rl6k70-a.oregon-postgres.render.com/chatbot_8gbl"
+# DATABASE_URI = 'postgres+psycopg2://postgres:password@localhost:5432/books'
 db = SQLAlchemy(app)
 CORS(app)
 ## Database
-class Queries(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
+class Chats(db.Model):
+    chat_id = db.Column(db.Integer, primary_key=True)
     question = db.Column(db.String(1000))
     answer = db.Column(db.String(1000))
-    language = db.Column(db.String(5))
-    timestamp = db.Column(db.DateTime, default=datetime.datetime.utcnow)
-with app.app_context():
-    db.create_all()
+    lang = db.Column(db.String(5))
+    created_at = db.Column(db.DateTime, default=datetime.datetime.utcnow)
+    updated_at = db.Column(db.DateTime, default=datetime.datetime.utcnow)
+
 #from flask import get_response
 class translator:
     api_url = "https://translate.googleapis.com/translate_a/single"
@@ -74,10 +75,11 @@ def predict():
     response, sl = process(text)
     # we jsonify our response
     message = {"answer":response}
-    query = Queries(question=text, answer=response, language=sl)
+    query = Chats(question=text, answer=response, lang=sl)
     db.session.add(query)
     db.session.commit()
     return jsonify(message)
+
 if __name__ == "__main__":
     with app.app_context():
         db.create_all()
