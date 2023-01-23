@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Chatbot</title>
+  <title>Bernault, the Chatbot</title>
+  <link rel="icon" type="image/x-icon" href="../static/images/bot.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -22,16 +23,16 @@
 
     <main class="msger-chat">
       <div class="msg left-msg">
-        <div class="msg-img" style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)"></div>
+        <div class="msg-img" style="background-image: url('../static/images/bot.png')"></div>
 
         <div class="msg-bubble">
           <div class="msg-info">
-            <div class="msg-info-name">Bernault [Chatbot]</div>
+            <div class="msg-info-name">Bernault</div>
             <div class="msg-info-time">Now</div>
           </div>
 
           <div class="msg-text">
-            Hi, I am Bernault! Happy to assist you with any queries you have. 😀
+            Hi, I am Bernault, the chatbot! Happy to assist you with any queries you have. 😀
           </div>
         </div>
       </div>
@@ -53,9 +54,9 @@
 
 
     // Icons made by Freepik from www.flaticon.com
-    const BOT_IMG = "https://image.flaticon.com/icons/svg/327/327779.svg";
-    const PERSON_IMG = "https://image.flaticon.com/icons/svg/145/145867.svg";
-    const BOT_NAME = "    ChatBot";
+    const BOT_IMG = "../static/images/bot.png";
+    const PERSON_IMG = "../static/images/user.png";
+    const BOT_NAME = "Bernault";
     const PERSON_NAME = "You";
 
     msgerForm.addEventListener("submit", event => {
@@ -72,24 +73,51 @@
     function appendMessage(name, img, side, text) {
       //   Simple solution for small apps
       const msgHTML = `
-<div class="msg ${side}-msg">
-  <div class="msg-img" style="background-image: url(${img})"></div>
+                      <div class="msg ${side}-msg">
+                        <div class="msg-img" style="background-image: url(${img})"></div>
 
-  <div class="msg-bubble">
-    <div class="msg-info">
-      <div class="msg-info-name">${name}</div>
-      <div class="msg-info-time">${formatDate(new Date())}</div>
-    </div>
+                        <div class="msg-bubble">
+                          <div class="msg-info">
+                            <div class="msg-info-name">${name}</div>
+                            <div class="msg-info-time">${formatDate(new Date())}</div>
+                          </div>
 
-    <div class="msg-text">${text}</div>
-  </div>
-</div>
-`;
+                          <div class="msg-text">${text}</div>
+                        </div>
+                      </div>
+                      `;
 
       msgerChat.insertAdjacentHTML("beforeend", msgHTML);
       msgerChat.scrollTop += 500;
     }
 
+    function chatBotProcessingMsg(name, img, side){
+      const loadingHTML = `
+                           <div class="loading" id="loading">
+                             <div class="msg ${side}-msg">
+                               <div class="msg-img" style="background-image: url(${img})"></div>
+
+                               <div class="msg-bubble">
+                                 <div class="msg-info">
+                                   <div class="msg-info-name">${name}</div>
+                                   <div class="msg-info-time">${formatDate(new Date())}</div>
+                                 </div>
+
+                                   <button id="loader">
+                                       <span>o</span>
+                                       <span>o</span>
+                                       <span>o</span>
+                                   </button>
+
+                               </div>
+                             </div>
+                           </div>
+                           `    
+        msgerChat.insertAdjacentHTML("beforeend", loadingHTML);
+        msgerChat.scrollTop += 500;
+
+    }
+  
     function botResponse(rawText) {
 
         // Bot Response
@@ -98,10 +126,14 @@
             url: "/predict",
             data: JSON.stringify({ "message": rawText }),
             contentType: "application/json",
+            beforeSend: function(){
+              chatBotProcessingMsg(BOT_NAME, BOT_IMG, "left"); 
+            },
             success: function (result) {
                 console.log(rawText);
                 console.log(result);
-                const msgText = result["answer"];
+                $('#loading').remove();
+                const msgText = result["answer"]; 
                 appendMessage(BOT_NAME, BOT_IMG, "left", msgText);
             },
             error: function (result, status) {
@@ -110,7 +142,6 @@
         });
 
     }
-
 
     // Utils
     function get(selector, root = document) {
