@@ -18,14 +18,15 @@ app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql+psycopg2://admin:COLnBQtTVpt
 db = SQLAlchemy(app)
 CORS(app)
 ## Database
-class Chats(db.Model):
+class chat(db.Model):
     chat_id = db.Column(db.Integer, primary_key=True)
     question = db.Column(db.String(1000))
     answer = db.Column(db.String(1000))
     lang = db.Column(db.String(5))
     created_at = db.Column(db.DateTime, default=datetime.datetime.utcnow)
     updated_at = db.Column(db.DateTime, default=datetime.datetime.utcnow)
-
+with app.app_context():
+    db.create_all()
 #from flask import get_response
 class translator:
     api_url = "https://translate.googleapis.com/translate_a/single"
@@ -75,7 +76,7 @@ def predict():
     response, sl = process(text)
     # we jsonify our response
     message = {"answer":response}
-    query = Chats(question=text, answer=response, lang=sl)
+    query = chat(question=text, answer=response, lang=sl)
     db.session.add(query)
     db.session.commit()
     return jsonify(message)
