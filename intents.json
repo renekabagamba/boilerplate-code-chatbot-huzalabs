@@ -1,83 +1,2196 @@
 {
   "intents": [
     {
-      "tag": "greeting",
+      "tag": "Greetings",
       "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
         "Hello",
-        "Good day"
+        "Hi",
+        "Mukomere",
+        "Good Morning",
+        "Mambo"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hello am maguire, How can I help you?",
+        "hello! how are you doing?",
+        "hi, pleasure to be of service",
+        "hi, how can I help you?"
+
       ]
     },
     {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
+      "tag": "Endings",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Thank you",
+        "bye",
+        "Murakoze",
+        "Goodbye",
+        "Asante"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "its a pleasure to be at your service!",
+        "you are welcome!",
+        "feel free to come again anytime please!",
+        "Anytime!",
+        "happy to help!"
+
       ]
     },
     {
-      "tag": "payments",
+      "tag": "essay writing vs creative writing",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Guide me to essay writing vs creative writing?",
+        "Where do you get essay writing vs creative writing?",
+        "What is the link to the essay writing vs creative writing?",
+        "How do you get essay writing vs creative writing?",
+        "Who is in Charge of essay writing vs creative writing?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "You can use this link <a href =\" http://rura.rw/?essay-writing-vs-creative-writing\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "franchising master thesis",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "Guide me to franchising master thesis?",
+        "Where do you get franchising master thesis?",
+        "What is the link to the franchising master thesis?",
+        "How do you get franchising master thesis?",
+        "Who is in Charge of franchising master thesis?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "You can use this link <a href =\"http://rura.rw/?franchising-master-thesis\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
-      "tag": "funny",
+      "tag": "college writing essay",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "Guide me to college writing essay?",
+        "Where do you get college writing essay?",
+        "What is the link to the college writing essay?",
+        "How do you get college writing essay?",
+        "Who is in Charge of college writing essay?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "You can use this link <a href =\"http://rura.rw/?college-writing-essay\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "how do i make my essay look longer",
+      "patterns": [
+        "Guide me to how do i make my essay look longer?",
+        "Where do you get how do i make my essay look longer?",
+        "What is the link to the how do i make my essay look longer?",
+        "How do you get how do i make my essay look longer?",
+        "Who is in Charge of how do i make my essay look longer?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"http://rura.rw/?how-do-i-make-my-essay-look-longer\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Home",
+      "patterns": [
+        "Guide me to Home?",
+        "Where do you get Home?",
+        "What is the link to the Home?",
+        "How do you get Home?",
+        "Who is in Charge of Home?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=23\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "About RURA",
+      "patterns": [
+        "Guide me to About RURA?",
+        "Where do you get About RURA?",
+        "What is the link to the About RURA?",
+        "How do you get About RURA?",
+        "Who is in Charge of About RURA?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=25\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Background",
+      "patterns": [
+        "Guide me to Background?",
+        "Where do you get Background?",
+        "What is the link to the Background?",
+        "How do you get Background?",
+        "Who is in Charge of Background?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=44\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "RURA Functions",
+      "patterns": [
+        "Guide me to RURA Functions?",
+        "Where do you get RURA Functions?",
+        "What is the link to the RURA Functions?",
+        "How do you get RURA Functions?",
+        "Who is in Charge of RURA Functions?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=45\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "RURA Mission, Vision and Values",
+      "patterns": [
+        "Guide me to RURA Mission, Vision and Values?",
+        "Where do you get RURA Mission, Vision and Values?",
+        "What is the link to the RURA Mission, Vision and Values?",
+        "How do you get RURA Mission, Vision and Values?",
+        "Who is in Charge of RURA Mission, Vision and Values?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=46\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "RURA Law and Related Orders",
+      "patterns": [
+        "Guide me to RURA Law and Related Orders?",
+        "Where do you get RURA Law and Related Orders?",
+        "What is the link to the RURA Law and Related Orders?",
+        "How do you get RURA Law and Related Orders?",
+        "Who is in Charge of RURA Law and Related Orders?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=202\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Regional and International Partnerships",
+      "patterns": [
+        "Guide me to Regional and International Partnerships?",
+        "Where do you get Regional and International Partnerships?",
+        "What is the link to the Regional and International Partnerships?",
+        "How do you get Regional and International Partnerships?",
+        "Who is in Charge of Regional and International Partnerships?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=47\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Consumer Affairs",
+      "patterns": [
+        "Guide me to Consumer Affairs?",
+        "Where do you get Consumer Affairs?",
+        "What is the link to the Consumer Affairs?",
+        "How do you get Consumer Affairs?",
+        "Who is in Charge of Consumer Affairs?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=262\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Overview",
+      "patterns": [
+        "Guide me to Overview?",
+        "Where do you get Overview?",
+        "What is the link to the Overview?",
+        "How do you get Overview?",
+        "Who is in Charge of Overview?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=263\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Consumer Rights and Obligations",
+      "patterns": [
+        "Guide me to Consumer Rights and Obligations?",
+        "Where do you get Consumer Rights and Obligations?",
+        "What is the link to the Consumer Rights and Obligations?",
+        "How do you get Consumer Rights and Obligations?",
+        "Who is in Charge of Consumer Rights and Obligations?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=264\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Complaints Handling Procedures",
+      "patterns": [
+        "Guide me to Complaints Handling Procedures?",
+        "Where do you get Complaints Handling Procedures?",
+        "What is the link to the Complaints Handling Procedures?",
+        "How do you get Complaints Handling Procedures?",
+        "Who is in Charge of Complaints Handling Procedures?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=265\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Consumer Awareness and Educational tools",
+      "patterns": [
+        "Guide me to Consumer Awareness and Educational tools?",
+        "Where do you get Consumer Awareness and Educational tools?",
+        "What is the link to the Consumer Awareness and Educational tools?",
+        "How do you get Consumer Awareness and Educational tools?",
+        "Who is in Charge of Consumer Awareness and Educational tools?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=266\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Laws and Regulations",
+      "patterns": [
+        "Guide me to Laws and Regulations?",
+        "Where do you get Laws and Regulations?",
+        "What is the link to the Laws and Regulations?",
+        "How do you get Laws and Regulations?",
+        "Who is in Charge of Laws and Regulations?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=268\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Strategic Plan 2022-2027",
+      "patterns": [
+        "Guide me to Strategic Plan 2022-2027?",
+        "Where do you get Strategic Plan 2022-2027?",
+        "What is the link to the Strategic Plan 2022-2027?",
+        "How do you get Strategic Plan 2022-2027?",
+        "Who is in Charge of Strategic Plan 2022-2027?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=289\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Service Charter",
+      "patterns": [
+        "Guide me to Service Charter?",
+        "Where do you get Service Charter?",
+        "What is the link to the Service Charter?",
+        "How do you get Service Charter?",
+        "Who is in Charge of Service Charter?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=150\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "FAQs",
+      "patterns": [
+        "Guide me to FAQs?",
+        "Where do you get FAQs?",
+        "What is the link to the FAQs?",
+        "How do you get FAQs?",
+        "Who is in Charge of FAQs?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=103\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "ICT",
+      "patterns": [
+        "Guide me to ICT?",
+        "Where do you get ICT?",
+        "What is the link to the ICT?",
+        "How do you get ICT?",
+        "Who is in Charge of ICT?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=48\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Overview",
+      "patterns": [
+        "Guide me to Overview?",
+        "Where do you get Overview?",
+        "What is the link to the Overview?",
+        "How do you get Overview?",
+        "Who is in Charge of Overview?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=49\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Sub-Sectors and Services",
+      "patterns": [
+        "Guide me to Sub-Sectors and Services?",
+        "Where do you get Sub-Sectors and Services?",
+        "What is the link to the Sub-Sectors and Services?",
+        "How do you get Sub-Sectors and Services?",
+        "Who is in Charge of Sub-Sectors and Services?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=159\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "ICT Scarce Resources Management and Monitoring",
+      "patterns": [
+        "Guide me to ICT Scarce Resources Management and Monitoring?",
+        "Where do you get ICT Scarce Resources Management and Monitoring?",
+        "What is the link to the ICT Scarce Resources Management and Monitoring?",
+        "How do you get ICT Scarce Resources Management and Monitoring?",
+        "Who is in Charge of ICT Scarce Resources Management and Monitoring?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=154\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "ICT Standards and Quality of Service",
+      "patterns": [
+        "Guide me to ICT Standards and Quality of Service?",
+        "Where do you get ICT Standards and Quality of Service?",
+        "What is the link to the ICT Standards and Quality of Service?",
+        "How do you get ICT Standards and Quality of Service?",
+        "Who is in Charge of ICT Standards and Quality of Service?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=155\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Postal, Courier Services Regulation and E-commerce Development",
+      "patterns": [
+        "Guide me to Postal, Courier Services Regulation and E-commerce Development?",
+        "Where do you get Postal, Courier Services Regulation and E-commerce Development?",
+        "What is the link to the Postal, Courier Services Regulation and E-commerce Development?",
+        "How do you get Postal, Courier Services Regulation and E-commerce Development?",
+        "Who is in Charge of Postal, Courier Services Regulation and E-commerce Development?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=253\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "ICT Media Regulation",
+      "patterns": [
+        "Guide me to ICT Media Regulation?",
+        "Where do you get ICT Media Regulation?",
+        "What is the link to the ICT Media Regulation?",
+        "How do you get ICT Media Regulation?",
+        "Who is in Charge of ICT Media Regulation?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=156\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Regulatory Instruments",
+      "patterns": [
+        "Guide me to Regulatory Instruments?",
+        "Where do you get Regulatory Instruments?",
+        "What is the link to the Regulatory Instruments?",
+        "How do you get Regulatory Instruments?",
+        "Who is in Charge of Regulatory Instruments?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=160\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Laws and Orders",
+      "patterns": [
+        "Guide me to Laws and Orders?",
+        "Where do you get Laws and Orders?",
+        "What is the link to the Laws and Orders?",
+        "How do you get Laws and Orders?",
+        "Who is in Charge of Laws and Orders?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=50\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Regulations and Guidelines",
+      "patterns": [
+        "Guide me to Regulations and Guidelines?",
+        "Where do you get Regulations and Guidelines?",
+        "What is the link to the Regulations and Guidelines?",
+        "How do you get Regulations and Guidelines?",
+        "Who is in Charge of Regulations and Guidelines?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=51\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Board Decisions",
+      "patterns": [
+        "Guide me to Board Decisions?",
+        "Where do you get Board Decisions?",
+        "What is the link to the Board Decisions?",
+        "How do you get Board Decisions?",
+        "Who is in Charge of Board Decisions?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=161\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Other documents",
+      "patterns": [
+        "Guide me to Other documents?",
+        "Where do you get Other documents?",
+        "What is the link to the Other documents?",
+        "How do you get Other documents?",
+        "Who is in Charge of Other documents?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=232\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Statistics",
+      "patterns": [
+        "Guide me to Statistics?",
+        "Where do you get Statistics?",
+        "What is the link to the Statistics?",
+        "How do you get Statistics?",
+        "Who is in Charge of Statistics?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=60\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Monthly Publication",
+      "patterns": [
+        "Guide me to Monthly Publication?",
+        "Where do you get Monthly Publication?",
+        "What is the link to the Monthly Publication?",
+        "How do you get Monthly Publication?",
+        "Who is in Charge of Monthly Publication?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=188\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Quarterly publication",
+      "patterns": [
+        "Guide me to Quarterly publication?",
+        "Where do you get Quarterly publication?",
+        "What is the link to the Quarterly publication?",
+        "How do you get Quarterly publication?",
+        "Who is in Charge of Quarterly publication?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=194\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Sector Reports",
+      "patterns": [
+        "Guide me to Sector Reports?",
+        "Where do you get Sector Reports?",
+        "What is the link to the Sector Reports?",
+        "How do you get Sector Reports?",
+        "Who is in Charge of Sector Reports?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=164\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "FAQs",
+      "patterns": [
+        "Guide me to FAQs?",
+        "Where do you get FAQs?",
+        "What is the link to the FAQs?",
+        "How do you get FAQs?",
+        "Who is in Charge of FAQs?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=222\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Radiation Protection",
+      "patterns": [
+        "Guide me to Radiation Protection?",
+        "Where do you get Radiation Protection?",
+        "What is the link to the Radiation Protection?",
+        "How do you get Radiation Protection?",
+        "Who is in Charge of Radiation Protection?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=237\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Overview",
+      "patterns": [
+        "Guide me to Overview?",
+        "Where do you get Overview?",
+        "What is the link to the Overview?",
+        "How do you get Overview?",
+        "Who is in Charge of Overview?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=238\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Services",
+      "patterns": [
+        "Guide me to Services?",
+        "Where do you get Services?",
+        "What is the link to the Services?",
+        "How do you get Services?",
+        "Who is in Charge of Services?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=251\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Law Governing Radiation protection",
+      "patterns": [
+        "Guide me to Law Governing Radiation protection?",
+        "Where do you get Law Governing Radiation protection?",
+        "What is the link to the Law Governing Radiation protection?",
+        "How do you get Law Governing Radiation protection?",
+        "Who is in Charge of Law Governing Radiation protection?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=284\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Regulations and Guidelines",
+      "patterns": [
+        "Guide me to Regulations and Guidelines?",
+        "Where do you get Regulations and Guidelines?",
+        "What is the link to the Regulations and Guidelines?",
+        "How do you get Regulations and Guidelines?",
+        "Who is in Charge of Regulations and Guidelines?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=282\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Sector Publications",
+      "patterns": [
+        "Guide me to Sector Publications?",
+        "Where do you get Sector Publications?",
+        "What is the link to the Sector Publications?",
+        "How do you get Sector Publications?",
+        "Who is in Charge of Sector Publications?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=283\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "FAQs",
+      "patterns": [
+        "Guide me to FAQs?",
+        "Where do you get FAQs?",
+        "What is the link to the FAQs?",
+        "How do you get FAQs?",
+        "Who is in Charge of FAQs?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=286\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Energy",
+      "patterns": [
+        "Guide me to Energy?",
+        "Where do you get Energy?",
+        "What is the link to the Energy?",
+        "How do you get Energy?",
+        "Who is in Charge of Energy?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=63\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Overview",
+      "patterns": [
+        "Guide me to Overview?",
+        "Where do you get Overview?",
+        "What is the link to the Overview?",
+        "How do you get Overview?",
+        "Who is in Charge of Overview?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=137\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Sub-Sectors and Services",
+      "patterns": [
+        "Guide me to Sub-Sectors and Services?",
+        "Where do you get Sub-Sectors and Services?",
+        "What is the link to the Sub-Sectors and Services?",
+        "How do you get Sub-Sectors and Services?",
+        "Who is in Charge of Sub-Sectors and Services?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=173\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Electricity",
+      "patterns": [
+        "Guide me to Electricity?",
+        "Where do you get Electricity?",
+        "What is the link to the Electricity?",
+        "How do you get Electricity?",
+        "Who is in Charge of Electricity?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=65\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Renewable Energy",
+      "patterns": [
+        "Guide me to Renewable Energy?",
+        "Where do you get Renewable Energy?",
+        "What is the link to the Renewable Energy?",
+        "How do you get Renewable Energy?",
+        "Who is in Charge of Renewable Energy?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=67\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Downstream petroleum",
+      "patterns": [
+        "Guide me to Downstream petroleum?",
+        "Where do you get Downstream petroleum?",
+        "What is the link to the Downstream petroleum?",
+        "How do you get Downstream petroleum?",
+        "Who is in Charge of Downstream petroleum?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=66\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Gas",
+      "patterns": [
+        "Guide me to Gas?",
+        "Where do you get Gas?",
+        "What is the link to the Gas?",
+        "How do you get Gas?",
+        "Who is in Charge of Gas?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=64\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Regulatory Instruments",
+      "patterns": [
+        "Guide me to Regulatory Instruments?",
+        "Where do you get Regulatory Instruments?",
+        "What is the link to the Regulatory Instruments?",
+        "How do you get Regulatory Instruments?",
+        "Who is in Charge of Regulatory Instruments?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=174\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Laws and Orders",
+      "patterns": [
+        "Guide me to Laws and Orders?",
+        "Where do you get Laws and Orders?",
+        "What is the link to the Laws and Orders?",
+        "How do you get Laws and Orders?",
+        "Who is in Charge of Laws and Orders?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=68\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Regulations and Guidelines",
+      "patterns": [
+        "Guide me to Regulations and Guidelines?",
+        "Where do you get Regulations and Guidelines?",
+        "What is the link to the Regulations and Guidelines?",
+        "How do you get Regulations and Guidelines?",
+        "Who is in Charge of Regulations and Guidelines?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=98\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Board Decisions",
+      "patterns": [
+        "Guide me to Board Decisions?",
+        "Where do you get Board Decisions?",
+        "What is the link to the Board Decisions?",
+        "How do you get Board Decisions?",
+        "Who is in Charge of Board Decisions?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=70\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Draft Regulations and Guidelines",
+      "patterns": [
+        "Guide me to Draft Regulations and Guidelines?",
+        "Where do you get Draft Regulations and Guidelines?",
+        "What is the link to the Draft Regulations and Guidelines?",
+        "How do you get Draft Regulations and Guidelines?",
+        "Who is in Charge of Draft Regulations and Guidelines?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=235\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Sector Reports",
+      "patterns": [
+        "Guide me to Sector Reports?",
+        "Where do you get Sector Reports?",
+        "What is the link to the Sector Reports?",
+        "How do you get Sector Reports?",
+        "Who is in Charge of Sector Reports?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=176\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Statistics",
+      "patterns": [
+        "Guide me to Statistics?",
+        "Where do you get Statistics?",
+        "What is the link to the Statistics?",
+        "How do you get Statistics?",
+        "Who is in Charge of Statistics?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=71\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "FAQS",
+      "patterns": [
+        "Guide me to FAQS?",
+        "Where do you get FAQS?",
+        "What is the link to the FAQS?",
+        "How do you get FAQS?",
+        "Who is in Charge of FAQS?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=223\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Water & Sanitation",
+      "patterns": [
+        "Guide me to Water & Sanitation?",
+        "Where do you get Water & Sanitation?",
+        "What is the link to the Water & Sanitation?",
+        "How do you get Water & Sanitation?",
+        "Who is in Charge of Water & Sanitation?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=62\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Overview",
+      "patterns": [
+        "Guide me to Overview?",
+        "Where do you get Overview?",
+        "What is the link to the Overview?",
+        "How do you get Overview?",
+        "Who is in Charge of Overview?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=153\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Sub-Sectors and Services",
+      "patterns": [
+        "Guide me to Sub-Sectors and Services?",
+        "Where do you get Sub-Sectors and Services?",
+        "What is the link to the Sub-Sectors and Services?",
+        "How do you get Sub-Sectors and Services?",
+        "Who is in Charge of Sub-Sectors and Services?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=165\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Water",
+      "patterns": [
+        "Guide me to Water?",
+        "Where do you get Water?",
+        "What is the link to the Water?",
+        "How do you get Water?",
+        "Who is in Charge of Water?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=74\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Sanitation",
+      "patterns": [
+        "Guide me to Sanitation?",
+        "Where do you get Sanitation?",
+        "What is the link to the Sanitation?",
+        "How do you get Sanitation?",
+        "Who is in Charge of Sanitation?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=75\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Regulatory Instruments",
+      "patterns": [
+        "Guide me to Regulatory Instruments?",
+        "Where do you get Regulatory Instruments?",
+        "What is the link to the Regulatory Instruments?",
+        "How do you get Regulatory Instruments?",
+        "Who is in Charge of Regulatory Instruments?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=169\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Laws and Orders",
+      "patterns": [
+        "Guide me to Laws and Orders?",
+        "Where do you get Laws and Orders?",
+        "What is the link to the Laws and Orders?",
+        "How do you get Laws and Orders?",
+        "Who is in Charge of Laws and Orders?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=76\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Regulations and guidelines",
+      "patterns": [
+        "Guide me to Regulations and guidelines?",
+        "Where do you get Regulations and guidelines?",
+        "What is the link to the Regulations and guidelines?",
+        "How do you get Regulations and guidelines?",
+        "Who is in Charge of Regulations and guidelines?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=167\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Board Decisions",
+      "patterns": [
+        "Guide me to Board Decisions?",
+        "Where do you get Board Decisions?",
+        "What is the link to the Board Decisions?",
+        "How do you get Board Decisions?",
+        "Who is in Charge of Board Decisions?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=77\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Draft Regulations and guidelines",
+      "patterns": [
+        "Guide me to Draft Regulations and guidelines?",
+        "Where do you get Draft Regulations and guidelines?",
+        "What is the link to the Draft Regulations and guidelines?",
+        "How do you get Draft Regulations and guidelines?",
+        "Who is in Charge of Draft Regulations and guidelines?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=231\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Statistics",
+      "patterns": [
+        "Guide me to Statistics?",
+        "Where do you get Statistics?",
+        "What is the link to the Statistics?",
+        "How do you get Statistics?",
+        "Who is in Charge of Statistics?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=78\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "FAQs",
+      "patterns": [
+        "Guide me to FAQs?",
+        "Where do you get FAQs?",
+        "What is the link to the FAQs?",
+        "How do you get FAQs?",
+        "Who is in Charge of FAQs?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=224\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Transport",
+      "patterns": [
+        "Guide me to Transport?",
+        "Where do you get Transport?",
+        "What is the link to the Transport?",
+        "How do you get Transport?",
+        "Who is in Charge of Transport?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=89\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Overview",
+      "patterns": [
+        "Guide me to Overview?",
+        "Where do you get Overview?",
+        "What is the link to the Overview?",
+        "How do you get Overview?",
+        "Who is in Charge of Overview?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=89\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Sub-Sectors and Services",
+      "patterns": [
+        "Guide me to Sub-Sectors and Services?",
+        "Where do you get Sub-Sectors and Services?",
+        "What is the link to the Sub-Sectors and Services?",
+        "How do you get Sub-Sectors and Services?",
+        "Who is in Charge of Sub-Sectors and Services?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=178\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Road Transport",
+      "patterns": [
+        "Guide me to Road Transport?",
+        "Where do you get Road Transport?",
+        "What is the link to the Road Transport?",
+        "How do you get Road Transport?",
+        "Who is in Charge of Road Transport?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=81\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Freight Forwarders service",
+      "patterns": [
+        "Guide me to Freight Forwarders service?",
+        "Where do you get Freight Forwarders service?",
+        "What is the link to the Freight Forwarders service?",
+        "How do you get Freight Forwarders service?",
+        "Who is in Charge of Freight Forwarders service?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=234\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Waterways Transport",
+      "patterns": [
+        "Guide me to Waterways Transport?",
+        "Where do you get Waterways Transport?",
+        "What is the link to the Waterways Transport?",
+        "How do you get Waterways Transport?",
+        "Who is in Charge of Waterways Transport?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=82\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Regulatory instruments",
+      "patterns": [
+        "Guide me to Regulatory instruments?",
+        "Where do you get Regulatory instruments?",
+        "What is the link to the Regulatory instruments?",
+        "How do you get Regulatory instruments?",
+        "Who is in Charge of Regulatory instruments?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=179\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Laws and Orders",
+      "patterns": [
+        "Guide me to Laws and Orders?",
+        "Where do you get Laws and Orders?",
+        "What is the link to the Laws and Orders?",
+        "How do you get Laws and Orders?",
+        "Who is in Charge of Laws and Orders?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=84\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Regulations and Guidelines",
+      "patterns": [
+        "Guide me to Regulations and Guidelines?",
+        "Where do you get Regulations and Guidelines?",
+        "What is the link to the Regulations and Guidelines?",
+        "How do you get Regulations and Guidelines?",
+        "Who is in Charge of Regulations and Guidelines?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=85\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Board decisions",
+      "patterns": [
+        "Guide me to Board decisions?",
+        "Where do you get Board decisions?",
+        "What is the link to the Board decisions?",
+        "How do you get Board decisions?",
+        "Who is in Charge of Board decisions?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=181\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Sector  Reports",
+      "patterns": [
+        "Guide me to Sector  Reports?",
+        "Where do you get Sector  Reports?",
+        "What is the link to the Sector  Reports?",
+        "How do you get Sector  Reports?",
+        "Who is in Charge of Sector  Reports?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=185\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Statistics",
+      "patterns": [
+        "Guide me to Statistics?",
+        "Where do you get Statistics?",
+        "What is the link to the Statistics?",
+        "How do you get Statistics?",
+        "Who is in Charge of Statistics?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=86\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "FAQs",
+      "patterns": [
+        "Guide me to FAQs?",
+        "Where do you get FAQs?",
+        "What is the link to the FAQs?",
+        "How do you get FAQs?",
+        "Who is in Charge of FAQs?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=88\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Online Services",
+      "patterns": [
+        "Guide me to Online Services?",
+        "Where do you get Online Services?",
+        "What is the link to the Online Services?",
+        "How do you get Online Services?",
+        "Who is in Charge of Online Services?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=269\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "All Online Services",
+      "patterns": [
+        "Guide me to All Online Services?",
+        "Where do you get All Online Services?",
+        "What is the link to the All Online Services?",
+        "How do you get All Online Services?",
+        "Who is in Charge of All Online Services?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://licensing.rura.rw/\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Media Center",
+      "patterns": [
+        "Guide me to Media Center?",
+        "Where do you get Media Center?",
+        "What is the link to the Media Center?",
+        "How do you get Media Center?",
+        "Who is in Charge of Media Center?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=17\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "News",
+      "patterns": [
+        "Guide me to News?",
+        "Where do you get News?",
+        "What is the link to the News?",
+        "How do you get News?",
+        "Who is in Charge of News?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=38\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Upcoming Events",
+      "patterns": [
+        "Guide me to Upcoming Events?",
+        "Where do you get Upcoming Events?",
+        "What is the link to the Upcoming Events?",
+        "How do you get Upcoming Events?",
+        "Who is in Charge of Upcoming Events?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=37\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Press Release",
+      "patterns": [
+        "Guide me to Press Release?",
+        "Where do you get Press Release?",
+        "What is the link to the Press Release?",
+        "How do you get Press Release?",
+        "Who is in Charge of Press Release?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=34\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Jobs",
+      "patterns": [
+        "Guide me to Jobs?",
+        "Where do you get Jobs?",
+        "What is the link to the Jobs?",
+        "How do you get Jobs?",
+        "Who is in Charge of Jobs?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=33\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Announcements",
+      "patterns": [
+        "Guide me to Announcements?",
+        "Where do you get Announcements?",
+        "What is the link to the Announcements?",
+        "How do you get Announcements?",
+        "Who is in Charge of Announcements?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=187\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "The Regulator Magazine",
+      "patterns": [
+        "Guide me to The Regulator Magazine?",
+        "Where do you get The Regulator Magazine?",
+        "What is the link to the The Regulator Magazine?",
+        "How do you get The Regulator Magazine?",
+        "Who is in Charge of The Regulator Magazine?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=8\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Public Notices",
+      "patterns": [
+        "Guide me to Public Notices?",
+        "Where do you get Public Notices?",
+        "What is the link to the Public Notices?",
+        "How do you get Public Notices?",
+        "Who is in Charge of Public Notices?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=227\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Reports",
+      "patterns": [
+        "Guide me to Reports?",
+        "Where do you get Reports?",
+        "What is the link to the Reports?",
+        "How do you get Reports?",
+        "Who is in Charge of Reports?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=29\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Tenders",
+      "patterns": [
+        "Guide me to Tenders?",
+        "Where do you get Tenders?",
+        "What is the link to the Tenders?",
+        "How do you get Tenders?",
+        "Who is in Charge of Tenders?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=133\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Contact us",
+      "patterns": [
+        "Guide me to Contact us?",
+        "Where do you get Contact us?",
+        "What is the link to the Contact us?",
+        "How do you get Contact us?",
+        "Who is in Charge of Contact us?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=4\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "ICT Sector",
+      "patterns": [
+        "Guide me to ICT Sector?",
+        "Where do you get ICT Sector?",
+        "What is the link to the ICT Sector?",
+        "How do you get ICT Sector?",
+        "Who is in Charge of ICT Sector?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=5&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=39b2a753d27b615aed7a70e896c563dd\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Read more",
+      "patterns": [
+        "Guide me to Read more?",
+        "Where do you get Read more?",
+        "What is the link to the Read more?",
+        "How do you get Read more?",
+        "Who is in Charge of Read more?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=5&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=39b2a753d27b615aed7a70e896c563dd\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Transport Sector",
+      "patterns": [
+        "Guide me to Transport Sector?",
+        "Where do you get Transport Sector?",
+        "What is the link to the Transport Sector?",
+        "How do you get Transport Sector?",
+        "Who is in Charge of Transport Sector?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=9&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=1e306f11763554a3c2ec733ce42b81a8\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Read more",
+      "patterns": [
+        "Guide me to Read more?",
+        "Where do you get Read more?",
+        "What is the link to the Read more?",
+        "How do you get Read more?",
+        "Who is in Charge of Read more?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=9&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=1e306f11763554a3c2ec733ce42b81a8\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Water and Sanitation Sector",
+      "patterns": [
+        "Guide me to Water and Sanitation Sector?",
+        "Where do you get Water and Sanitation Sector?",
+        "What is the link to the Water and Sanitation Sector?",
+        "How do you get Water and Sanitation Sector?",
+        "Who is in Charge of Water and Sanitation Sector?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=10&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=080d8ba93034ea8804a270818390fcc7\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Read more",
+      "patterns": [
+        "Guide me to Read more?",
+        "Where do you get Read more?",
+        "What is the link to the Read more?",
+        "How do you get Read more?",
+        "Who is in Charge of Read more?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=10&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=080d8ba93034ea8804a270818390fcc7\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Energy Sector",
+      "patterns": [
+        "Guide me to Energy Sector?",
+        "Where do you get Energy Sector?",
+        "What is the link to the Energy Sector?",
+        "How do you get Energy Sector?",
+        "Who is in Charge of Energy Sector?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=8&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=be96bf6a3f57cce32b1c5a95937656dd\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Read more",
+      "patterns": [
+        "Guide me to Read more?",
+        "Where do you get Read more?",
+        "What is the link to the Read more?",
+        "How do you get Read more?",
+        "Who is in Charge of Read more?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=8&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=be96bf6a3f57cce32b1c5a95937656dd\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Radiation Protection ",
+      "patterns": [
+        "Guide me to Radiation Protection ?",
+        "Where do you get Radiation Protection ?",
+        "What is the link to the Radiation Protection ?",
+        "How do you get Radiation Protection ?",
+        "Who is in Charge of Radiation Protection ?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=7&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=16f185b66db7e293156282257bf28fb4\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Read more",
+      "patterns": [
+        "Guide me to Read more?",
+        "Where do you get Read more?",
+        "What is the link to the Read more?",
+        "How do you get Read more?",
+        "Who is in Charge of Read more?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=7&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=16f185b66db7e293156282257bf28fb4\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Online Services",
+      "patterns": [
+        "Guide me to Online Services?",
+        "Where do you get Online Services?",
+        "What is the link to the Online Services?",
+        "How do you get Online Services?",
+        "Who is in Charge of Online Services?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://licensing.rura.rw/\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Driver Vocational Card (DVC)",
+      "patterns": [
+        "Guide me to Driver Vocational Card (DVC)?",
+        "Where do you get Driver Vocational Card (DVC)?",
+        "What is the link to the Driver Vocational Card (DVC)?",
+        "How do you get Driver Vocational Card (DVC)?",
+        "Who is in Charge of Driver Vocational Card (DVC)?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://dvc.rura.rw/\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Consumer Complaint",
+      "patterns": [
+        "Guide me to Consumer Complaint?",
+        "Where do you get Consumer Complaint?",
+        "What is the link to the Consumer Complaint?",
+        "How do you get Consumer Complaint?",
+        "Who is in Charge of Consumer Complaint?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://licensing.rura.rw/customer/complaint/form\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Type Approved Devices",
+      "patterns": [
+        "Guide me to Type Approved Devices?",
+        "Where do you get Type Approved Devices?",
+        "What is the link to the Type Approved Devices?",
+        "How do you get Type Approved Devices?",
+        "Who is in Charge of Type Approved Devices?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://licensing.rura.rw/type-approval/search-devices\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "IMEI Verification System",
+      "patterns": [
+        "Guide me to IMEI Verification System?",
+        "Where do you get IMEI Verification System?",
+        "What is the link to the IMEI Verification System?",
+        "How do you get IMEI Verification System?",
+        "Who is in Charge of IMEI Verification System?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"http://www.rura.rw/tcrplus/\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Annual reports",
+      "patterns": [
+        "Guide me to Annual reports?",
+        "Where do you get Annual reports?",
+        "What is the link to the Annual reports?",
+        "How do you get Annual reports?",
+        "Who is in Charge of Annual reports?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=213\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Tariffs",
+      "patterns": [
+        "Guide me to Tariffs?",
+        "Where do you get Tariffs?",
+        "What is the link to the Tariffs?",
+        "How do you get Tariffs?",
+        "Who is in Charge of Tariffs?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=288\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Statistics",
+      "patterns": [
+        "Guide me to Statistics?",
+        "Where do you get Statistics?",
+        "What is the link to the Statistics?",
+        "How do you get Statistics?",
+        "Who is in Charge of Statistics?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=276\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Revoked Licenses",
+      "patterns": [
+        "Guide me to Revoked Licenses?",
+        "Where do you get Revoked Licenses?",
+        "What is the link to the Revoked Licenses?",
+        "How do you get Revoked Licenses?",
+        "Who is in Charge of Revoked Licenses?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=287\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Key ICT Documents",
+      "patterns": [
+        "Guide me to Key ICT Documents?",
+        "Where do you get Key ICT Documents?",
+        "What is the link to the Key ICT Documents?",
+        "How do you get Key ICT Documents?",
+        "Who is in Charge of Key ICT Documents?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=211\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Consumer Affairs",
+      "patterns": [
+        "Guide me to Consumer Affairs?",
+        "Where do you get Consumer Affairs?",
+        "What is the link to the Consumer Affairs?",
+        "How do you get Consumer Affairs?",
+        "Who is in Charge of Consumer Affairs?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=279\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Regulations and Guidelines",
+      "patterns": [
+        "Guide me to Regulations and Guidelines?",
+        "Where do you get Regulations and Guidelines?",
+        "What is the link to the Regulations and Guidelines?",
+        "How do you get Regulations and Guidelines?",
+        "Who is in Charge of Regulations and Guidelines?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=207\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Board Decisions",
+      "patterns": [
+        "Guide me to Board Decisions?",
+        "Where do you get Board Decisions?",
+        "What is the link to the Board Decisions?",
+        "How do you get Board Decisions?",
+        "Who is in Charge of Board Decisions?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=208\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Regulations for Consultation",
+      "patterns": [
+        "Guide me to Regulations for Consultation?",
+        "Where do you get Regulations for Consultation?",
+        "What is the link to the Regulations for Consultation?",
+        "How do you get Regulations for Consultation?",
+        "Who is in Charge of Regulations for Consultation?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=291\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "FAQs",
+      "patterns": [
+        "Guide me to FAQs?",
+        "Where do you get FAQs?",
+        "What is the link to the FAQs?",
+        "How do you get FAQs?",
+        "Who is in Charge of FAQs?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=217\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Tweets by RURA_RWANDA",
+      "patterns": [
+        "Guide me to Tweets by RURA_RWANDA?",
+        "Where do you get Tweets by RURA_RWANDA?",
+        "What is the link to the Tweets by RURA_RWANDA?",
+        "How do you get Tweets by RURA_RWANDA?",
+        "Who is in Charge of Tweets by RURA_RWANDA?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://twitter.com/RURA_RWANDA\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "\r\n          RURA Hosts Government institutions to discuss Nuclear Safeguards implementation\r\n        ",
+      "patterns": [
+        "Guide me to \r\n          RURA Hosts Government institutions to discuss Nuclear Safeguards implementation\r\n        ?",
+        "Where do you get \r\n          RURA Hosts Government institutions to discuss Nuclear Safeguards implementation\r\n        ?",
+        "What is the link to the \r\n          RURA Hosts Government institutions to discuss Nuclear Safeguards implementation\r\n        ?",
+        "How do you get \r\n          RURA Hosts Government institutions to discuss Nuclear Safeguards implementation\r\n        ?",
+        "Who is in Charge of \r\n          RURA Hosts Government institutions to discuss Nuclear Safeguards implementation\r\n        ?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=95&tx_news_pi1%5Bnews%5D=1697&tx_news_pi1%5Bday%5D=22&tx_news_pi1%5Bmonth%5D=11&tx_news_pi1%5Byear%5D=2022&cHash=3114a7391a8b2521275ed7a234870177\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "\r\n          An AI Ethics primer for the Rwandan AI ecosystem and consultation on ethical AI guidelines \r\n        ",
+      "patterns": [
+        "Guide me to \r\n          An AI Ethics primer for the Rwandan AI ecosystem and consultation on ethical AI guidelines \r\n        ?",
+        "Where do you get \r\n          An AI Ethics primer for the Rwandan AI ecosystem and consultation on ethical AI guidelines \r\n        ?",
+        "What is the link to the \r\n          An AI Ethics primer for the Rwandan AI ecosystem and consultation on ethical AI guidelines \r\n        ?",
+        "How do you get \r\n          An AI Ethics primer for the Rwandan AI ecosystem and consultation on ethical AI guidelines \r\n        ?",
+        "Who is in Charge of \r\n          An AI Ethics primer for the Rwandan AI ecosystem and consultation on ethical AI guidelines \r\n        ?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=95&tx_news_pi1%5Bnews%5D=1696&tx_news_pi1%5Bday%5D=21&tx_news_pi1%5Bmonth%5D=11&tx_news_pi1%5Byear%5D=2022&cHash=2bcaf2dbcf178d2fed28fb08b3183058\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "\r\n          RURA in partnership with IAEA hosts a Regional workshop on Radiation protection officers and qualified experts\r\n        ",
+      "patterns": [
+        "Guide me to \r\n          RURA in partnership with IAEA hosts a Regional workshop on Radiation protection officers and qualified experts\r\n        ?",
+        "Where do you get \r\n          RURA in partnership with IAEA hosts a Regional workshop on Radiation protection officers and qualified experts\r\n        ?",
+        "What is the link to the \r\n          RURA in partnership with IAEA hosts a Regional workshop on Radiation protection officers and qualified experts\r\n        ?",
+        "How do you get \r\n          RURA in partnership with IAEA hosts a Regional workshop on Radiation protection officers and qualified experts\r\n        ?",
+        "Who is in Charge of \r\n          RURA in partnership with IAEA hosts a Regional workshop on Radiation protection officers and qualified experts\r\n        ?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=95&tx_news_pi1%5Bnews%5D=1691&tx_news_pi1%5Bday%5D=7&tx_news_pi1%5Bmonth%5D=11&tx_news_pi1%5Byear%5D=2022&cHash=b7e6c9903dbdaefe8f39ab8a03ff9a88\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "\r\n          RURA and Zambian energy regulator exchange experience on LPG regulation\r\n        ",
+      "patterns": [
+        "Guide me to \r\n          RURA and Zambian energy regulator exchange experience on LPG regulation\r\n        ?",
+        "Where do you get \r\n          RURA and Zambian energy regulator exchange experience on LPG regulation\r\n        ?",
+        "What is the link to the \r\n          RURA and Zambian energy regulator exchange experience on LPG regulation\r\n        ?",
+        "How do you get \r\n          RURA and Zambian energy regulator exchange experience on LPG regulation\r\n        ?",
+        "Who is in Charge of \r\n          RURA and Zambian energy regulator exchange experience on LPG regulation\r\n        ?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=95&tx_news_pi1%5Bnews%5D=1671&tx_news_pi1%5Bday%5D=23&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2022&cHash=e0cbb1a8937231f8afa48064e0215e3e\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "\r\n          Open Call for the Rwandan Artificial Intelligence(AI) Ecosystem: AI ethics Applied Programme and Consultation\r\n        ",
+      "patterns": [
+        "Guide me to \r\n          Open Call for the Rwandan Artificial Intelligence(AI) Ecosystem: AI ethics Applied Programme and Consultation\r\n        ?",
+        "Where do you get \r\n          Open Call for the Rwandan Artificial Intelligence(AI) Ecosystem: AI ethics Applied Programme and Consultation\r\n        ?",
+        "What is the link to the \r\n          Open Call for the Rwandan Artificial Intelligence(AI) Ecosystem: AI ethics Applied Programme and Consultation\r\n        ?",
+        "How do you get \r\n          Open Call for the Rwandan Artificial Intelligence(AI) Ecosystem: AI ethics Applied Programme and Consultation\r\n        ?",
+        "Who is in Charge of \r\n          Open Call for the Rwandan Artificial Intelligence(AI) Ecosystem: AI ethics Applied Programme and Consultation\r\n        ?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=95&tx_news_pi1%5Bnews%5D=1653&tx_news_pi1%5Bday%5D=22&tx_news_pi1%5Bmonth%5D=8&tx_news_pi1%5Byear%5D=2022&cHash=cd34289aa0182cdb2eb51a976bb05208\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Public notices",
+      "patterns": [
+        "Guide me to Public notices?",
+        "Where do you get Public notices?",
+        "What is the link to the Public notices?",
+        "How do you get Public notices?",
+        "Who is in Charge of Public notices?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=227\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Announcements",
+      "patterns": [
+        "Guide me to Announcements?",
+        "Where do you get Announcements?",
+        "What is the link to the Announcements?",
+        "How do you get Announcements?",
+        "Who is in Charge of Announcements?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=187\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Jobs",
+      "patterns": [
+        "Guide me to Jobs?",
+        "Where do you get Jobs?",
+        "What is the link to the Jobs?",
+        "How do you get Jobs?",
+        "Who is in Charge of Jobs?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=33\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "E-Recruitment",
+      "patterns": [
+        "Guide me to E-Recruitment?",
+        "Where do you get E-Recruitment?",
+        "What is the link to the E-Recruitment?",
+        "How do you get E-Recruitment?",
+        "Who is in Charge of E-Recruitment?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/recruitment/index.php\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "E-Internship ",
+      "patterns": [
+        "Guide me to E-Internship ?",
+        "Where do you get E-Internship ?",
+        "What is the link to the E-Internship ?",
+        "How do you get E-Internship ?",
+        "Who is in Charge of E-Internship ?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/internship/\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Rwanda Trade Portal",
+      "patterns": [
+        "Guide me to Rwanda Trade Portal?",
+        "Where do you get Rwanda Trade Portal?",
+        "What is the link to the Rwanda Trade Portal?",
+        "How do you get Rwanda Trade Portal?",
+        "Who is in Charge of Rwanda Trade Portal?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rwandatrade.rw/\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Background",
+      "patterns": [
+        "Guide me to Background?",
+        "Where do you get Background?",
+        "What is the link to the Background?",
+        "How do you get Background?",
+        "Who is in Charge of Background?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=44\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "RURA Functions",
+      "patterns": [
+        "Guide me to RURA Functions?",
+        "Where do you get RURA Functions?",
+        "What is the link to the RURA Functions?",
+        "How do you get RURA Functions?",
+        "Who is in Charge of RURA Functions?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=45\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "RURA Mission, Vision and Values",
+      "patterns": [
+        "Guide me to RURA Mission, Vision and Values?",
+        "Where do you get RURA Mission, Vision and Values?",
+        "What is the link to the RURA Mission, Vision and Values?",
+        "How do you get RURA Mission, Vision and Values?",
+        "Who is in Charge of RURA Mission, Vision and Values?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=46\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "RURA Law and Related Orders",
+      "patterns": [
+        "Guide me to RURA Law and Related Orders?",
+        "Where do you get RURA Law and Related Orders?",
+        "What is the link to the RURA Law and Related Orders?",
+        "How do you get RURA Law and Related Orders?",
+        "Who is in Charge of RURA Law and Related Orders?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=202\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Regional and International Partnerships",
+      "patterns": [
+        "Guide me to Regional and International Partnerships?",
+        "Where do you get Regional and International Partnerships?",
+        "What is the link to the Regional and International Partnerships?",
+        "How do you get Regional and International Partnerships?",
+        "Who is in Charge of Regional and International Partnerships?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=47\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Consumer Affairs",
+      "patterns": [
+        "Guide me to Consumer Affairs?",
+        "Where do you get Consumer Affairs?",
+        "What is the link to the Consumer Affairs?",
+        "How do you get Consumer Affairs?",
+        "Who is in Charge of Consumer Affairs?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=262\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Strategic Plan 2022-2027",
+      "patterns": [
+        "Guide me to Strategic Plan 2022-2027?",
+        "Where do you get Strategic Plan 2022-2027?",
+        "What is the link to the Strategic Plan 2022-2027?",
+        "How do you get Strategic Plan 2022-2027?",
+        "Who is in Charge of Strategic Plan 2022-2027?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=289\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Service Charter",
+      "patterns": [
+        "Guide me to Service Charter?",
+        "Where do you get Service Charter?",
+        "What is the link to the Service Charter?",
+        "How do you get Service Charter?",
+        "Who is in Charge of Service Charter?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=150\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "FAQs",
+      "patterns": [
+        "Guide me to FAQs?",
+        "Where do you get FAQs?",
+        "What is the link to the FAQs?",
+        "How do you get FAQs?",
+        "Who is in Charge of FAQs?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=103\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Overview",
+      "patterns": [
+        "Guide me to Overview?",
+        "Where do you get Overview?",
+        "What is the link to the Overview?",
+        "How do you get Overview?",
+        "Who is in Charge of Overview?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=49\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Sub-Sectors and Services",
+      "patterns": [
+        "Guide me to Sub-Sectors and Services?",
+        "Where do you get Sub-Sectors and Services?",
+        "What is the link to the Sub-Sectors and Services?",
+        "How do you get Sub-Sectors and Services?",
+        "Who is in Charge of Sub-Sectors and Services?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=159\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Regulatory Instruments",
+      "patterns": [
+        "Guide me to Regulatory Instruments?",
+        "Where do you get Regulatory Instruments?",
+        "What is the link to the Regulatory Instruments?",
+        "How do you get Regulatory Instruments?",
+        "Who is in Charge of Regulatory Instruments?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=160\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Statistics",
+      "patterns": [
+        "Guide me to Statistics?",
+        "Where do you get Statistics?",
+        "What is the link to the Statistics?",
+        "How do you get Statistics?",
+        "Who is in Charge of Statistics?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=60\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Sector Reports",
+      "patterns": [
+        "Guide me to Sector Reports?",
+        "Where do you get Sector Reports?",
+        "What is the link to the Sector Reports?",
+        "How do you get Sector Reports?",
+        "Who is in Charge of Sector Reports?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=164\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "FAQs",
+      "patterns": [
+        "Guide me to FAQs?",
+        "Where do you get FAQs?",
+        "What is the link to the FAQs?",
+        "How do you get FAQs?",
+        "Who is in Charge of FAQs?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=222\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Overview",
+      "patterns": [
+        "Guide me to Overview?",
+        "Where do you get Overview?",
+        "What is the link to the Overview?",
+        "How do you get Overview?",
+        "Who is in Charge of Overview?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=137\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Sub-Sectors and Services",
+      "patterns": [
+        "Guide me to Sub-Sectors and Services?",
+        "Where do you get Sub-Sectors and Services?",
+        "What is the link to the Sub-Sectors and Services?",
+        "How do you get Sub-Sectors and Services?",
+        "Who is in Charge of Sub-Sectors and Services?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=173\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Regulatory Instruments",
+      "patterns": [
+        "Guide me to Regulatory Instruments?",
+        "Where do you get Regulatory Instruments?",
+        "What is the link to the Regulatory Instruments?",
+        "How do you get Regulatory Instruments?",
+        "Who is in Charge of Regulatory Instruments?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=174\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Statistics",
+      "patterns": [
+        "Guide me to Statistics?",
+        "Where do you get Statistics?",
+        "What is the link to the Statistics?",
+        "How do you get Statistics?",
+        "Who is in Charge of Statistics?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=71\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "FAQS",
+      "patterns": [
+        "Guide me to FAQS?",
+        "Where do you get FAQS?",
+        "What is the link to the FAQS?",
+        "How do you get FAQS?",
+        "Who is in Charge of FAQS?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=223\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Overview",
+      "patterns": [
+        "Guide me to Overview?",
+        "Where do you get Overview?",
+        "What is the link to the Overview?",
+        "How do you get Overview?",
+        "Who is in Charge of Overview?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=153\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Sub-Sectors and Services",
+      "patterns": [
+        "Guide me to Sub-Sectors and Services?",
+        "Where do you get Sub-Sectors and Services?",
+        "What is the link to the Sub-Sectors and Services?",
+        "How do you get Sub-Sectors and Services?",
+        "Who is in Charge of Sub-Sectors and Services?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=165\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Regulatory Instruments",
+      "patterns": [
+        "Guide me to Regulatory Instruments?",
+        "Where do you get Regulatory Instruments?",
+        "What is the link to the Regulatory Instruments?",
+        "How do you get Regulatory Instruments?",
+        "Who is in Charge of Regulatory Instruments?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=169\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Statistics",
+      "patterns": [
+        "Guide me to Statistics?",
+        "Where do you get Statistics?",
+        "What is the link to the Statistics?",
+        "How do you get Statistics?",
+        "Who is in Charge of Statistics?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=78\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "FAQs",
+      "patterns": [
+        "Guide me to FAQs?",
+        "Where do you get FAQs?",
+        "What is the link to the FAQs?",
+        "How do you get FAQs?",
+        "Who is in Charge of FAQs?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=224\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Overview",
+      "patterns": [
+        "Guide me to Overview?",
+        "Where do you get Overview?",
+        "What is the link to the Overview?",
+        "How do you get Overview?",
+        "Who is in Charge of Overview?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=89\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Sub-Sectors and Services",
+      "patterns": [
+        "Guide me to Sub-Sectors and Services?",
+        "Where do you get Sub-Sectors and Services?",
+        "What is the link to the Sub-Sectors and Services?",
+        "How do you get Sub-Sectors and Services?",
+        "Who is in Charge of Sub-Sectors and Services?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=178\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Regulatory instruments",
+      "patterns": [
+        "Guide me to Regulatory instruments?",
+        "Where do you get Regulatory instruments?",
+        "What is the link to the Regulatory instruments?",
+        "How do you get Regulatory instruments?",
+        "Who is in Charge of Regulatory instruments?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=179\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Sector  Reports",
+      "patterns": [
+        "Guide me to Sector  Reports?",
+        "Where do you get Sector  Reports?",
+        "What is the link to the Sector  Reports?",
+        "How do you get Sector  Reports?",
+        "Who is in Charge of Sector  Reports?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=185\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "Statistics",
+      "patterns": [
+        "Guide me to Statistics?",
+        "Where do you get Statistics?",
+        "What is the link to the Statistics?",
+        "How do you get Statistics?",
+        "Who is in Charge of Statistics?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=86\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "FAQs",
+      "patterns": [
+        "Guide me to FAQs?",
+        "Where do you get FAQs?",
+        "What is the link to the FAQs?",
+        "How do you get FAQs?",
+        "Who is in Charge of FAQs?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://rura.rw/index.php?id=88\" target=\"_blank\">here</a> for more information"
+      ]
+    },
+    {
+      "tag": "All Online Services",
+      "patterns": [
+        "Guide me to All Online Services?",
+        "Where do you get All Online Services?",
+        "What is the link to the All Online Services?",
+        "How do you get All Online Services?",
+        "Who is in Charge of All Online Services?"
+      ],
+      "responses": [
+        "You can use this link <a href =\"https://licensing.rura.rw/\" target=\"_blank\">here</a> for more information"
       ]
     }
   ]
