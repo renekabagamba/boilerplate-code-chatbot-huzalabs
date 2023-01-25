@@ -1,6 +1,168 @@
 {
   "intents": [
     {
+      "tag": "background",
+      "patterns": [
+        "when was RURA created?"
+      ],
+      "responses": [
+        "Rwanda Utilities Regulatory Authority(RURA) was initially created by the Law n° 39/2001 of 13 September 2001 with the mission to regulate certain public Utilities, namely: telecommunications network and/or Telecommunications services, electricity, water, removal of waste products from residential or business premises, extraction and distribution of gas and transport of goods and persons.  This Law was further reviewed and replaced by Law Nº 09/2013 of 01/03/2013 establishing Rwanda Utilities Regulatory Authority (RURA) and determining its mission, powers, organisation and functioning. This Law gives to RURA the mandate to regulate:   Telecommunications, information technology, broadcasting and converging electronic technologies including the internet and any other audiovisual information and communication technology; Postal services; Renewable and non-renewable energy, industrial gases, pipelines and storage facilities; Water; Sanitation; Transport of persons and goods; Radiation Protection; and Other public utilities, if deemed necessary."
+      ]
+    },
+    {
+      "tag": "background",
+      "patterns": [
+        "what is the main objectives of RURA creation?"
+      ],
+      "responses": [
+        "Rwanda Utilities Regulatory Authority(RURA) was initially created by the Law n° 39/2001 of 13 September 2001 with the mission to regulate certain public Utilities, namely: telecommunications network and/or Telecommunications services, electricity, water, removal of waste products from residential or business premises, extraction and distribution of gas and transport of goods and persons.  This Law was further reviewed and replaced by Law Nº 09/2013 of 01/03/2013 establishing Rwanda Utilities Regulatory Authority (RURA) and determining its mission, powers, organisation and functioning. This Law gives to RURA the mandate to regulate:   Telecommunications, information technology, broadcasting and converging electronic technologies including the internet and any other audiovisual information and communication technology; Postal services; Renewable and non-renewable energy, industrial gases, pipelines and storage facilities; Water; Sanitation; Transport of persons and goods; Radiation Protection; and Other public utilities, if deemed necessary."
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "what are the functions of RURA?"
+      ],
+      "responses": [
+        "To be able to regulate public utilities, the Law Nº 09/2013 of 01/03/2013 gives to the Authority the following missions:"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "what are the main duties of RURA?"
+      ],
+      "responses": [
+        "To set up necessary guidelines in order to implement laws and regulations in force"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "what does RURA serve?"
+      ],
+      "responses": [
+        "To ensure compliance by public utilities with the provisions of laws and regulations governing the regulated sectors in an objective, transparent and non-discriminatory manner;"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "To ensure the continuity of service delivery by the licensed or authorized service providers and the preservation of public interest;"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "To protect users’ and operators’ interests by taking measures likely to guarantee effective, sound and fair competition in the regulated sectors within the framework of applicable laws and regulations;"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "To protect and promote consumers’ interests;"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "To promote the availability, accessibility and affordability of regulated services to all consumers including low income, rural and disadvantaged consumers;"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "To promote efficient development of regulated sectors in accordance with Government economic and financial policy;"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "To promote and enhance general knowledge, sensitization and awareness of the regulated sectors including but not limited to:"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "Promote and protect the rights and obligations of consumers and service providers;"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "Issuing permits, authorizations and licenses required for regulated sectors, in accordance with the relevant laws and regulations;"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "To monitor and ensure compliance by regulated network or service providers in line with their licenses, permits and concession obligations;"
+      ]
+    },
+    {
+      "tag": "functions",
+      "patterns": [
+        "which ways does RURA contribute?"
+      ],
+      "responses": [
+        "To ensure fair competition in all regulated sectors."
+      ]
+    },
+    {
+      "tag": "Addresss Location",
+      "patterns": [
+        "WHere is the Head Office Located"
+      ],
+      "responses": [
+        "KN 39 St, Kigali"
+      ]
+    },
+    {
+      "tag": "Route Address/Map",
+      "patterns": [
+        "Guide me using google map to RURA HQ"
+      ],
+      "responses": [
+        "https://www.google.com/maps/dir/Rura,+KN+39+St,+Kigali/"
+      ]
+    },
+    {
+      "tag": "online services ",
+      "patterns": [
+        "what are E-services offered by RURA?"
+      ],
+      "responses": [
+        "ICT Services ElectricityGas & PetroleumPostal Services & E-CommerceNuclear and Radiation ProtectionWater and SanitationE-waste"
+      ]
+    },
+    {
       "tag": "Greetings",
       "patterns": [
         "Hello",
@@ -10,7 +172,7 @@
         "Mambo"
       ],
       "responses": [
-        "Hello am Ingenzi Chatbot, How can I help you?",
+        "Hello am Ingenzi, How can I help you?",
         "hello! how are you doing?",
         "hi, pleasure to be of service",
         "hi, how can I help you?"
@@ -32,7 +194,6 @@
         "feel free to come again anytime please!",
         "Anytime!",
         "happy to help!"
-
       ]
     },
     {
@@ -45,7 +206,7 @@
         "Who is in Charge of essay writing vs creative writing?"
       ],
       "responses": [
-        "You can use this link <a href=\" http://rura.rw/?essay-writing-vs-creative-writing\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\" http://rura.rw/?essay-writing-vs-creative-writing\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -58,7 +219,7 @@
         "Who is in Charge of franchising master thesis?"
       ],
       "responses": [
-        "You can use this link <a href=\" http://rura.rw/?franchising-master-thesis\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"http://rura.rw/?franchising-master-thesis\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -71,7 +232,7 @@
         "Who is in Charge of college writing essay?"
       ],
       "responses": [
-        "You can use this link <a href=\" http://rura.rw/?college-writing-essay\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"http://rura.rw/?college-writing-essay\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -84,7 +245,7 @@
         "Who is in Charge of how do i make my essay look longer?"
       ],
       "responses": [
-        "You can use this link <a href=\" http://rura.rw/?how-do-i-make-my-essay-look-longer\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"http://rura.rw/?how-do-i-make-my-essay-look-longer\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -97,7 +258,7 @@
         "Who is in Charge of Home?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=23\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=23\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -110,7 +271,7 @@
         "Who is in Charge of About RURA?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=25\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=25\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -123,7 +284,7 @@
         "Who is in Charge of Background?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=44\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=44\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -136,7 +297,7 @@
         "Who is in Charge of RURA Functions?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=45\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=45\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -149,7 +310,7 @@
         "Who is in Charge of RURA Mission, Vision and Values?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=46\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=46\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -162,7 +323,7 @@
         "Who is in Charge of RURA Law and Related Orders?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=202\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=202\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -175,7 +336,7 @@
         "Who is in Charge of Regional and International Partnerships?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=47\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=47\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -188,7 +349,7 @@
         "Who is in Charge of Consumer Affairs?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=262\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=262\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -201,7 +362,7 @@
         "Who is in Charge of Overview?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=263\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=263\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -214,7 +375,7 @@
         "Who is in Charge of Consumer Rights and Obligations?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=264\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=264\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -227,7 +388,7 @@
         "Who is in Charge of Complaints Handling Procedures?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=265\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=265\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -240,7 +401,7 @@
         "Who is in Charge of Consumer Awareness and Educational tools?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=266\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=266\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -253,7 +414,7 @@
         "Who is in Charge of Laws and Regulations?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=268\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=268\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -266,7 +427,7 @@
         "Who is in Charge of Strategic Plan 2022-2027?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=289\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=289\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -279,7 +440,7 @@
         "Who is in Charge of Service Charter?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=150\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=150\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -292,7 +453,7 @@
         "Who is in Charge of FAQs?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=103\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=103\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -305,7 +466,7 @@
         "Who is in Charge of ICT?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=48\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=48\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -318,7 +479,7 @@
         "Who is in Charge of Overview?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=49\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=49\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -331,7 +492,7 @@
         "Who is in Charge of Sub-Sectors and Services?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=159\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=159\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -344,7 +505,7 @@
         "Who is in Charge of ICT Scarce Resources Management and Monitoring?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=154\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=154\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -357,7 +518,7 @@
         "Who is in Charge of ICT Standards and Quality of Service?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=155\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=155\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -370,7 +531,7 @@
         "Who is in Charge of Postal, Courier Services Regulation and E-commerce Development?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=253\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=253\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -383,7 +544,7 @@
         "Who is in Charge of ICT Media Regulation?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=156\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=156\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -396,7 +557,7 @@
         "Who is in Charge of Regulatory Instruments?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=160\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=160\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -409,7 +570,7 @@
         "Who is in Charge of Laws and Orders?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=50\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=50\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -422,7 +583,7 @@
         "Who is in Charge of Regulations and Guidelines?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=51\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=51\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -435,7 +596,7 @@
         "Who is in Charge of Board Decisions?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=161\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=161\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -448,7 +609,7 @@
         "Who is in Charge of Other documents?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=232\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=232\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -461,7 +622,7 @@
         "Who is in Charge of Statistics?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=60\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=60\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -474,7 +635,7 @@
         "Who is in Charge of Monthly Publication?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=188\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=188\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -487,7 +648,7 @@
         "Who is in Charge of Quarterly publication?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=194\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=194\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -500,7 +661,7 @@
         "Who is in Charge of Sector Reports?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=164\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=164\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -513,7 +674,7 @@
         "Who is in Charge of FAQs?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=222\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=222\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -526,7 +687,7 @@
         "Who is in Charge of Radiation Protection?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=237\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=237\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -539,7 +700,7 @@
         "Who is in Charge of Overview?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=238\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=238\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -552,7 +713,7 @@
         "Who is in Charge of Services?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=251\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=251\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -565,7 +726,7 @@
         "Who is in Charge of Law Governing Radiation protection?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=284\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=284\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -578,7 +739,7 @@
         "Who is in Charge of Regulations and Guidelines?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=282\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=282\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -591,7 +752,7 @@
         "Who is in Charge of Sector Publications?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=283\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=283\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -604,7 +765,7 @@
         "Who is in Charge of FAQs?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=286\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=286\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -617,7 +778,7 @@
         "Who is in Charge of Energy?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=63\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=63\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -630,7 +791,7 @@
         "Who is in Charge of Overview?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=137\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=137\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -643,7 +804,7 @@
         "Who is in Charge of Sub-Sectors and Services?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=173\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=173\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -656,7 +817,7 @@
         "Who is in Charge of Electricity?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=65\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=65\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -669,7 +830,7 @@
         "Who is in Charge of Renewable Energy?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=67\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=67\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -682,7 +843,7 @@
         "Who is in Charge of Downstream petroleum?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=66\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=66\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -695,7 +856,7 @@
         "Who is in Charge of Gas?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=64\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=64\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -708,7 +869,7 @@
         "Who is in Charge of Regulatory Instruments?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=174\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=174\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -721,7 +882,7 @@
         "Who is in Charge of Laws and Orders?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=68\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=68\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -734,7 +895,7 @@
         "Who is in Charge of Regulations and Guidelines?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=98\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=98\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -747,7 +908,7 @@
         "Who is in Charge of Board Decisions?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=70\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=70\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -760,7 +921,7 @@
         "Who is in Charge of Draft Regulations and Guidelines?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=235\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=235\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -773,7 +934,7 @@
         "Who is in Charge of Sector Reports?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=176\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=176\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -786,7 +947,7 @@
         "Who is in Charge of Statistics?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=71\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=71\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -799,7 +960,7 @@
         "Who is in Charge of FAQS?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=223\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=223\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -812,7 +973,7 @@
         "Who is in Charge of Water & Sanitation?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=62\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=62\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -825,7 +986,7 @@
         "Who is in Charge of Overview?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=153\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=153\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -838,7 +999,7 @@
         "Who is in Charge of Sub-Sectors and Services?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=165\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=165\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -851,7 +1012,7 @@
         "Who is in Charge of Water?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=74\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=74\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -864,7 +1025,7 @@
         "Who is in Charge of Sanitation?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=75\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=75\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -877,7 +1038,7 @@
         "Who is in Charge of Regulatory Instruments?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=169\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=169\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -890,7 +1051,7 @@
         "Who is in Charge of Laws and Orders?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=76\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=76\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -903,7 +1064,7 @@
         "Who is in Charge of Regulations and guidelines?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=167\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=167\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -916,7 +1077,7 @@
         "Who is in Charge of Board Decisions?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=77\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=77\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -929,7 +1090,7 @@
         "Who is in Charge of Draft Regulations and guidelines?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=231\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=231\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -942,7 +1103,7 @@
         "Who is in Charge of Statistics?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=78\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=78\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -955,7 +1116,7 @@
         "Who is in Charge of FAQs?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=224\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=224\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -968,7 +1129,7 @@
         "Who is in Charge of Transport?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=89\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=89\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -981,7 +1142,7 @@
         "Who is in Charge of Overview?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=89\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=89\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -994,7 +1155,7 @@
         "Who is in Charge of Sub-Sectors and Services?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=178\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=178\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1007,7 +1168,7 @@
         "Who is in Charge of Road Transport?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=81\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=81\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1020,7 +1181,7 @@
         "Who is in Charge of Freight Forwarders service?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=234\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=234\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1033,7 +1194,7 @@
         "Who is in Charge of Waterways Transport?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=82\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=82\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1046,7 +1207,7 @@
         "Who is in Charge of Regulatory instruments?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=179\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=179\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1059,7 +1220,7 @@
         "Who is in Charge of Laws and Orders?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=84\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=84\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1072,7 +1233,7 @@
         "Who is in Charge of Regulations and Guidelines?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=85\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=85\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1085,7 +1246,7 @@
         "Who is in Charge of Board decisions?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=181\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=181\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1098,7 +1259,7 @@
         "Who is in Charge of Sector  Reports?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=185\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=185\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1111,7 +1272,7 @@
         "Who is in Charge of Statistics?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=86\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=86\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1124,7 +1285,7 @@
         "Who is in Charge of FAQs?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=88\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=88\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1137,7 +1298,7 @@
         "Who is in Charge of Online Services?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=269\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=269\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1150,7 +1311,7 @@
         "Who is in Charge of All Online Services?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://licensing.rura.rw/\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://licensing.rura.rw/\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1163,7 +1324,7 @@
         "Who is in Charge of Media Center?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=17\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=17\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1176,7 +1337,7 @@
         "Who is in Charge of News?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=38\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=38\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1189,7 +1350,7 @@
         "Who is in Charge of Upcoming Events?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=37\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=37\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1202,7 +1363,7 @@
         "Who is in Charge of Press Release?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=34\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=34\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1215,7 +1376,7 @@
         "Who is in Charge of Jobs?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=33\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=33\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1228,7 +1389,7 @@
         "Who is in Charge of Announcements?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=187\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=187\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1241,7 +1402,7 @@
         "Who is in Charge of The Regulator Magazine?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=8\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=8\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1254,7 +1415,7 @@
         "Who is in Charge of Public Notices?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=227\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=227\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1267,7 +1428,7 @@
         "Who is in Charge of Reports?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=29\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=29\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1280,7 +1441,7 @@
         "Who is in Charge of Tenders?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=133\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=133\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1293,7 +1454,7 @@
         "Who is in Charge of Contact us?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=4\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=4\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1306,7 +1467,7 @@
         "Who is in Charge of ICT Sector?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=5&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=39b2a753d27b615aed7a70e896c563dd\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=5&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=39b2a753d27b615aed7a70e896c563dd\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1319,7 +1480,7 @@
         "Who is in Charge of Read more?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=5&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=39b2a753d27b615aed7a70e896c563dd\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=5&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=39b2a753d27b615aed7a70e896c563dd\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1332,7 +1493,7 @@
         "Who is in Charge of Transport Sector?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=9&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=1e306f11763554a3c2ec733ce42b81a8\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=9&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=1e306f11763554a3c2ec733ce42b81a8\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1345,7 +1506,7 @@
         "Who is in Charge of Read more?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=9&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=1e306f11763554a3c2ec733ce42b81a8\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=9&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=1e306f11763554a3c2ec733ce42b81a8\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1358,7 +1519,7 @@
         "Who is in Charge of Water and Sanitation Sector?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=10&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=080d8ba93034ea8804a270818390fcc7\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=10&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=080d8ba93034ea8804a270818390fcc7\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1371,7 +1532,7 @@
         "Who is in Charge of Read more?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=10&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=080d8ba93034ea8804a270818390fcc7\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=10&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=080d8ba93034ea8804a270818390fcc7\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1384,7 +1545,7 @@
         "Who is in Charge of Energy Sector?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=8&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=be96bf6a3f57cce32b1c5a95937656dd\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=8&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=be96bf6a3f57cce32b1c5a95937656dd\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1397,7 +1558,7 @@
         "Who is in Charge of Read more?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=8&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=be96bf6a3f57cce32b1c5a95937656dd\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=8&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=be96bf6a3f57cce32b1c5a95937656dd\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1410,7 +1571,7 @@
         "Who is in Charge of Radiation Protection ?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=7&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=16f185b66db7e293156282257bf28fb4\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=7&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=16f185b66db7e293156282257bf28fb4\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1423,7 +1584,7 @@
         "Who is in Charge of Read more?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=7&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=16f185b66db7e293156282257bf28fb4\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=104&tx_news_pi1%5Bnews%5D=7&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=16f185b66db7e293156282257bf28fb4\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1436,7 +1597,7 @@
         "Who is in Charge of Online Services?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://licensing.rura.rw/\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://licensing.rura.rw/\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1449,7 +1610,7 @@
         "Who is in Charge of Driver Vocational Card (DVC)?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://dvc.rura.rw/\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://dvc.rura.rw/\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1462,7 +1623,7 @@
         "Who is in Charge of Consumer Complaint?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://licensing.rura.rw/customer/complaint/form\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://licensing.rura.rw/customer/complaint/form\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1475,7 +1636,7 @@
         "Who is in Charge of Type Approved Devices?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://licensing.rura.rw/type-approval/search-devices\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://licensing.rura.rw/type-approval/search-devices\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1488,7 +1649,7 @@
         "Who is in Charge of IMEI Verification System?"
       ],
       "responses": [
-        "You can use this link <a href=\" http://www.rura.rw/tcrplus/\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"http://www.rura.rw/tcrplus/\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1501,7 +1662,7 @@
         "Who is in Charge of Annual reports?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=213\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=213\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1514,7 +1675,7 @@
         "Who is in Charge of Tariffs?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=288\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=288\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1527,7 +1688,7 @@
         "Who is in Charge of Statistics?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=276\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=276\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1540,7 +1701,7 @@
         "Who is in Charge of Revoked Licenses?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=287\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=287\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1553,7 +1714,7 @@
         "Who is in Charge of Key ICT Documents?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=211\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=211\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1566,7 +1727,7 @@
         "Who is in Charge of Consumer Affairs?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=279\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=279\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1579,7 +1740,7 @@
         "Who is in Charge of Regulations and Guidelines?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=207\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=207\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1592,7 +1753,7 @@
         "Who is in Charge of Board Decisions?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=208\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=208\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1605,7 +1766,7 @@
         "Who is in Charge of Regulations for Consultation?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=291\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=291\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1618,7 +1779,7 @@
         "Who is in Charge of FAQs?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=217\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=217\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1631,7 +1792,7 @@
         "Who is in Charge of Tweets by RURA_RWANDA?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://twitter.com/RURA_RWANDA\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://twitter.com/RURA_RWANDA\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1644,7 +1805,7 @@
         "Who is in Charge of \r\n          RURA Hosts Government institutions to discuss Nuclear Safeguards implementation\r\n        ?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=95&tx_news_pi1%5Bnews%5D=1697&tx_news_pi1%5Bday%5D=22&tx_news_pi1%5Bmonth%5D=11&tx_news_pi1%5Byear%5D=2022&cHash=3114a7391a8b2521275ed7a234870177\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=95&tx_news_pi1%5Bnews%5D=1697&tx_news_pi1%5Bday%5D=22&tx_news_pi1%5Bmonth%5D=11&tx_news_pi1%5Byear%5D=2022&cHash=3114a7391a8b2521275ed7a234870177\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1657,7 +1818,7 @@
         "Who is in Charge of \r\n          An AI Ethics primer for the Rwandan AI ecosystem and consultation on ethical AI guidelines \r\n        ?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=95&tx_news_pi1%5Bnews%5D=1696&tx_news_pi1%5Bday%5D=21&tx_news_pi1%5Bmonth%5D=11&tx_news_pi1%5Byear%5D=2022&cHash=2bcaf2dbcf178d2fed28fb08b3183058\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=95&tx_news_pi1%5Bnews%5D=1696&tx_news_pi1%5Bday%5D=21&tx_news_pi1%5Bmonth%5D=11&tx_news_pi1%5Byear%5D=2022&cHash=2bcaf2dbcf178d2fed28fb08b3183058\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1670,7 +1831,7 @@
         "Who is in Charge of \r\n          RURA in partnership with IAEA hosts a Regional workshop on Radiation protection officers and qualified experts\r\n        ?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=95&tx_news_pi1%5Bnews%5D=1691&tx_news_pi1%5Bday%5D=7&tx_news_pi1%5Bmonth%5D=11&tx_news_pi1%5Byear%5D=2022&cHash=b7e6c9903dbdaefe8f39ab8a03ff9a88\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=95&tx_news_pi1%5Bnews%5D=1691&tx_news_pi1%5Bday%5D=7&tx_news_pi1%5Bmonth%5D=11&tx_news_pi1%5Byear%5D=2022&cHash=b7e6c9903dbdaefe8f39ab8a03ff9a88\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1683,7 +1844,7 @@
         "Who is in Charge of \r\n          RURA and Zambian energy regulator exchange experience on LPG regulation\r\n        ?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=95&tx_news_pi1%5Bnews%5D=1671&tx_news_pi1%5Bday%5D=23&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2022&cHash=e0cbb1a8937231f8afa48064e0215e3e\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=95&tx_news_pi1%5Bnews%5D=1671&tx_news_pi1%5Bday%5D=23&tx_news_pi1%5Bmonth%5D=9&tx_news_pi1%5Byear%5D=2022&cHash=e0cbb1a8937231f8afa48064e0215e3e\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1696,7 +1857,7 @@
         "Who is in Charge of \r\n          Open Call for the Rwandan Artificial Intelligence(AI) Ecosystem: AI ethics Applied Programme and Consultation\r\n        ?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=95&tx_news_pi1%5Bnews%5D=1653&tx_news_pi1%5Bday%5D=22&tx_news_pi1%5Bmonth%5D=8&tx_news_pi1%5Byear%5D=2022&cHash=cd34289aa0182cdb2eb51a976bb05208\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=95&tx_news_pi1%5Bnews%5D=1653&tx_news_pi1%5Bday%5D=22&tx_news_pi1%5Bmonth%5D=8&tx_news_pi1%5Byear%5D=2022&cHash=cd34289aa0182cdb2eb51a976bb05208\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1709,7 +1870,7 @@
         "Who is in Charge of Public notices?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=227\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=227\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1722,7 +1883,7 @@
         "Who is in Charge of Announcements?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=187\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=187\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1735,7 +1896,7 @@
         "Who is in Charge of Jobs?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=33\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=33\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1748,7 +1909,7 @@
         "Who is in Charge of E-Recruitment?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/recruitment/index.php\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/recruitment/index.php\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1761,7 +1922,7 @@
         "Who is in Charge of E-Internship ?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/internship/\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/internship/\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1774,7 +1935,7 @@
         "Who is in Charge of Rwanda Trade Portal?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rwandatrade.rw/\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rwandatrade.rw/\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1787,7 +1948,7 @@
         "Who is in Charge of Background?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=44\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=44\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1800,7 +1961,7 @@
         "Who is in Charge of RURA Functions?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=45\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=45\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1813,7 +1974,7 @@
         "Who is in Charge of RURA Mission, Vision and Values?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=46\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=46\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1826,7 +1987,7 @@
         "Who is in Charge of RURA Law and Related Orders?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=202\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=202\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1839,7 +2000,7 @@
         "Who is in Charge of Regional and International Partnerships?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=47\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=47\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1852,7 +2013,7 @@
         "Who is in Charge of Consumer Affairs?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=262\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=262\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1865,7 +2026,7 @@
         "Who is in Charge of Strategic Plan 2022-2027?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=289\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=289\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1878,7 +2039,7 @@
         "Who is in Charge of Service Charter?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=150\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=150\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1891,7 +2052,7 @@
         "Who is in Charge of FAQs?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=103\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=103\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1904,7 +2065,7 @@
         "Who is in Charge of Overview?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=49\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=49\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1917,7 +2078,7 @@
         "Who is in Charge of Sub-Sectors and Services?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=159\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=159\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1930,7 +2091,7 @@
         "Who is in Charge of Regulatory Instruments?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=160\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=160\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1943,7 +2104,7 @@
         "Who is in Charge of Statistics?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=60\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=60\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1956,7 +2117,7 @@
         "Who is in Charge of Sector Reports?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=164\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=164\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1969,7 +2130,7 @@
         "Who is in Charge of FAQs?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=222\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=222\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1982,7 +2143,7 @@
         "Who is in Charge of Overview?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=137\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=137\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -1995,7 +2156,7 @@
         "Who is in Charge of Sub-Sectors and Services?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=173\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=173\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -2008,7 +2169,7 @@
         "Who is in Charge of Regulatory Instruments?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=174\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=174\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -2021,7 +2182,7 @@
         "Who is in Charge of Statistics?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=71\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=71\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -2034,7 +2195,7 @@
         "Who is in Charge of FAQS?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=223\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=223\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -2047,7 +2208,7 @@
         "Who is in Charge of Overview?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=153\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=153\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -2060,7 +2221,7 @@
         "Who is in Charge of Sub-Sectors and Services?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=165\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=165\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -2073,7 +2234,7 @@
         "Who is in Charge of Regulatory Instruments?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=169\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=169\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -2086,7 +2247,7 @@
         "Who is in Charge of Statistics?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=78\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=78\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -2099,7 +2260,7 @@
         "Who is in Charge of FAQs?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=224\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=224\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -2112,7 +2273,7 @@
         "Who is in Charge of Overview?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=89\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=89\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -2125,7 +2286,7 @@
         "Who is in Charge of Sub-Sectors and Services?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=178\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=178\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -2138,7 +2299,7 @@
         "Who is in Charge of Regulatory instruments?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=179\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=179\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -2151,7 +2312,7 @@
         "Who is in Charge of Sector  Reports?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=185\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=185\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -2164,7 +2325,7 @@
         "Who is in Charge of Statistics?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=86\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=86\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -2177,7 +2338,7 @@
         "Who is in Charge of FAQs?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://rura.rw/index.php?id=88\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://rura.rw/index.php?id=88\" target=\"_blank\">here</a> for more information"
       ]
     },
     {
@@ -2190,7 +2351,7 @@
         "Who is in Charge of All Online Services?"
       ],
       "responses": [
-        "You can use this link <a href=\" https://licensing.rura.rw/\" target = \"_blank\">here</a> for more information"
+        "You can use this link <a href =\"https://licensing.rura.rw/\" target=\"_blank\">here</a> for more information"
       ]
     }
   ]
